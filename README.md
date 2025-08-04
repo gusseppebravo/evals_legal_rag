@@ -1,6 +1,6 @@
-# Legal RAG Evals
+# Legal RAG Evaluation
 
-Evaluation for the RAG pipeline
+Creates ground truth Q&A datasets for evaluating legal RAG pipelines on data usage, privacy, and AI/ML restrictions.
 
 ## Installation
 
@@ -8,8 +8,6 @@ Evaluation for the RAG pipeline
 uv sync
 ```
 
-## Quick Start
+## Usage
 
-```bash
-evaluation.ipynb
-```
+Open `evaluation.ipynb` to generate Q&A pairs (qa_list.json) from legal documents using LangChain and Azure OpenAI.
