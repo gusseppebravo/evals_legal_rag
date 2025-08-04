@@ -1,0 +1,22 @@
+[project]
+name = "evals-env"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "boto3>=1.40.1",
+    "langchain==0.2.2",
+    "langchain-community==0.2.2",
+    "langchain-core==0.2.2",
+    "langchain-openai>=0.1.14",
+    "openai>=1.0.0",
+    "pandas>=2.0.0",
+    "rich>=14.1.0",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+]

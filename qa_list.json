@@ -1,0 +1,100 @@
+[
+    {
+        "question": "What is the time frame covered by the Supplemental Criminal Record Conviction Database search according to the Security Addendum?",
+        "options": {
+            "A": "5 years",
+            "B": "7 years",
+            "C": "Lifetime",
+            "D": "10 years"
+        },
+        "correct_answer": "B",
+        "explanation": "The Security Addendum specifies that the Supplemental Criminal Record Conviction Database search covers records from the past seven (7) years.",
+        "source": "s3://ml-legal-restricted/contract-docs/59686/Aerotek Modified Exhibit A - Cotiviti Inc (7 year lived and worked)Ready for Signature (SBC 07.02.20).pdf",
+        "client": "Aerotek",
+        "document_type": "Security Addendum/Exhibit"
+    },
+    {
+        "question": "What is the minimum frequency required for backing up Company PHI according to the document?",
+        "options": {
+            "A": "Quarterly full backup and quarterly offsite storage",
+            "B": "Monthly full backup and weekly offsite storage",
+            "C": "Daily full backup and daily offsite storage",
+            "D": "Weekly full backup and monthly offsite storage"
+        },
+        "correct_answer": "D",
+        "explanation": "The document specifies a minimum requirement of a weekly full backup and monthly offsite storage of Company data.",
+        "source": "s3://ml-legal-restricted/contract-docs/63497/46088_Aetna CA Compliance Addendum 052720.pdf",
+        "client": "Aetna Life Insurance Company",
+        "document_type": "Addendum"
+    },
+    {
+        "question": "What is the minimum requirement for system risk assessment/security reviews for systems processing or storing Company PHI?",
+        "options": {
+            "A": "Quarterly risk assessment/security review",
+            "B": "Monthly risk assessment/security review",
+            "C": "Annual risk assessment/security review",
+            "D": "Bi-annual risk assessment/security review"
+        },
+        "correct_answer": "C",
+        "explanation": "The document specifies that systems processing or storing Company PHI must have at least an annual system risk assessment/security review.",
+        "source": "s3://ml-legal-restricted/contract-docs/63497/46088_Aetna CA Compliance Addendum 052720.pdf",
+        "client": "Aetna Life Insurance Company",
+        "document_type": "Addendum"
+    },
+    {
+        "question": "What must be done if attempts to verify an applicant\u2019s educational credentials are unsuccessful?",
+        "options": {
+            "A": "Customer refuses to accept an Approved Copy and deems the individual ineligible for assignment.",
+            "B": "Customer automatically accepts the individual without verification.",
+            "C": "Customer accepts an Approved Copy and assigns the individual.",
+            "D": "Customer requests Aerotek to perform additional verification checks."
+        },
+        "correct_answer": "A",
+        "explanation": "If attempts to verify educational credentials are unsuccessful, the Customer refuses to accept an Approved Copy and the individual is deemed ineligible for assignment.",
+        "source": "s3://ml-legal-restricted/contract-docs/59686/Dynamics_-_59686_signed.pdf",
+        "client": "Aerotek",
+        "document_type": "Security Addendum/Exhibit"
+    },
+    {
+        "question": "What is the duration for which the Supplemental Criminal Record Conviction Database searches past records?",
+        "options": {
+            "A": "10 years",
+            "B": "7 years",
+            "C": "3 years",
+            "D": "5 years"
+        },
+        "correct_answer": "B",
+        "explanation": "The Supplemental Criminal Record Conviction Database searches past records for the past seven (7) years.",
+        "source": "s3://ml-legal-restricted/contract-docs/59686/Dynamics_-_59686_signed.pdf",
+        "client": "Aerotek",
+        "document_type": "Security Addendum/Exhibit"
+    },
+    {
+        "question": "What is the duration for which the Supplemental Criminal Record Conviction Database searches past criminal records?",
+        "options": {
+            "A": "5 years",
+            "B": "10 years",
+            "C": "7 years",
+            "D": "3 years"
+        },
+        "correct_answer": "C",
+        "explanation": "The document specifies that the Supplemental Criminal Record Conviction Database searches past criminal records for the past seven years.",
+        "source": "s3://ml-legal-restricted/contract-docs/59686/Aerotek - Cotiviti -SecurityAddendum - SC- 07072020 - Dynamics_59686.pdf",
+        "client": "Aerotek",
+        "document_type": "Security Addendum/Exhibit"
+    },
+    {
+        "question": "According to the Security Addendum, what should be done if attempts to verify an applicant\u2019s educational credentials are unsuccessful?",
+        "options": {
+            "A": "Customer refuses to accept any form of credential verification.",
+            "B": "Customer accepts alternative forms of verification such as W2s.",
+            "C": "Customer accepts a copy of the credential viewed in-person by a Company representative.",
+            "D": "Contact Customer to discuss further exceptions."
+        },
+        "correct_answer": "D",
+        "explanation": "The document specifies that if attempts to independently verify the required credentials are unsuccessful, the Customer should be contacted to discuss exceptions.",
+        "source": "s3://ml-legal-restricted/contract-docs/59686/Aerotek - Cotiviti -SecurityAddendum - SC- 07072020 - Dynamics_59686.pdf",
+        "client": "Aerotek",
+        "document_type": "Security Addendum/Exhibit"
+    }
+]
