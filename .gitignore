@@ -1,4 +1,5 @@
 .venv/
+.github/
 __pycache__/
 .github/
 thought_process.ipynb
