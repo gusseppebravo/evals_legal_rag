@@ -1360,6 +1360,26 @@
         "critic_explanation": "The question is answerable from the given context, and the marked correct answer is directly supported by the context. The context specifies that upon termination of the Agreement or upon request by the Disclosing Party, the Receiving Party must destroy or deliver all documents or materials containing Confidential Information, except for a single archival copy that may be retained by the legal department for dispute resolution purposes. The marked correct answer, option A, accurately reflects this requirement."
     },
     {
+        "question": "Under the MSA, to whom can Client disclose Confidential Information related to SOW #1?",
+        "options": {
+            "A": "Optum Health - CDO business segment with confidentiality agreement",
+            "B": "Advantmed India LLP without restrictions",
+            "C": "Any employees of Client without restrictions",
+            "D": "Any third party without restrictions"
+        },
+        "correct_answer": "A",
+        "explanation": "The MSA specifies that Client may disclose certain information to the Optum Health - CDO business segment, provided they agree to hold such pricing in strict confidence and not further disclose it.",
+        "source": "s3://ml-legal-restricted/contract-docs/74579/Advantmed, LLC - Cotiviti - MSA - DM - 08302024 - Dynamics_74579.pdf",
+        "client": "AdvantMed",
+        "document_type": "MSA",
+        "context": "The Receiving Party agrees that it will not (i) use any such \nConfi dential Information in any way,  except for the exercise of its rights and performance of its obligations under \nthis Agreement  or for the purpose for which it was disclosed , or (ii) disclose any such Confidential Information to \nany third party  without the Disclosing Party\u2019s prior written permission . Notwithstanding the preceding sentence , (i) Cotiviti may disclose  Confidentia l Information to its  Representatives  \nand subcontractors who are required to have access to the Confidential Information in connection with the provision \nof a Solution  to or on behalf of Client , provided each  has agreed to restrictions no less stringent than Cotiviti  with \nregard to the use and disclosure of such Confidential Information , and (ii) Client may disclose Confidential \nInformation to employees of its wholly -owned subsidiary Advantmed India LLP  to the minimum extent necessary \nfor implementation and provision of the services under Statement of Work #1 for Risk Adjustment between the \nparties, to be executed contemporaneously herewith (\u201c SOW #1\u201d), provided such Advantmed India LLP employees \nhave agreed to restrictions no less stringent than Client  with regard to the use and disclosure of such Confidential \nInformation . Notwithstanding anything herein to the contrary, except for permitted disclos ures to Advantmed India LL P \nemployees pursuant to the preceding sentence, Client  may disclose only to the Optum Health \u2013 CDO business \nsegment only the following information: (i) periodic status reports  for the services performed under SOW #1 , strictly \nlimited to the number of records retrieved by Cotiviti under SOW #1  at a given point in time ; (ii) the minimum \nvolume commitment under SOW #1 ; and (iii) fees set forth in SOW #1 , provide d that Optum Health -CDO agrees to \nhold such pricing in strict confidence within the business segment and agrees  not further disclose such pricing.",
+        "id": "qa_77",
+        "relevance": 1,
+        "relevance_explanation": "The context contains substantive legal information relevant to AdvantMed, including confidentiality obligations, permitted disclosures, and specific conditions related to a Statement of Work (SOW) associated with AdvantMed India LLP and Optum Health \u2013 CDO. This information is crucial for understanding the legal responsibilities and limitations under the MSA.",
+        "factuality": 0,
+        "critic_explanation": "The marked correct answer is inaccurate based on the context. While Client can disclose certain information to the Optum Health - CDO business segment, the context specifies restrictions beyond just holding pricing in confidence. Additionally, Client can disclose information to employees of its wholly-owned subsidiary Advantmed India LLP, but with restrictions. Therefore, the answer is incomplete and misleading."
+    },
+    {
         "question": "What information must psychologists include in the records for an initial examination according to New Jersey Medicaid/NJ FamilyCare requirements?",
         "options": {
             "A": "Date of service, signature, chief complaints, historical data, evaluation reports, diagnosis, intended treatment course",
@@ -1538,6 +1558,26 @@
         "relevance_explanation": "The context includes substantive legal information about confidentiality obligations and procedures for handling disclosure requests, which is relevant to Ochsner Health System if they are involved in or considering agreements that require confidentiality. This information can be useful in generating legal questions about confidentiality agreements and the legal processes involved in disclosing confidential information.",
         "factuality": 1,
         "critic_explanation": "The marked correct answer is factually accurate based on the context. The context specifies that if a Receiving Party is requested or required to disclose Confidential Information, it must provide the Disclosing Party with prompt written notice and cooperate fully so that the Disclosing Party may seek an appropriate protective order. Option A correctly reflects these requirements."
+    },
+    {
+        "question": "What are the limitations on the Client\u2019s rights to use Cotiviti Applications as per the agreement?",
+        "options": {
+            "A": "Client can make Cotiviti Applications available on public electronic bulletin boards.",
+            "B": "Client can frame or deep-link into any page of Cotiviti Applications without permission.",
+            "C": "Client can use Cotiviti Applications within and for the benefit of its own internal business operations.",
+            "D": "Client can transfer possession of Cotiviti Applications freely."
+        },
+        "correct_answer": "C",
+        "explanation": "The agreement specifies that Cotiviti grants the Client a personal, nontransferable, and nonexclusive right to use the Software, Application, or Application Service for the benefit of the Client\u2019s own internal business operations.",
+        "source": "unknown",
+        "client": "Maryland Physicians Care (MPC)",
+        "document_type": "unknown",
+        "context": "Client may be requ ired to seek written approval for all Approved Authorized \nUsers on an annual basis, the timing of which may be determined by Cotiviti. (iv) Each Authorized User account will be used by one and only one individual. (v) Client will be responsible for the acts and om issions of its Authorized Users and Approved \nAuthorized Users with respect to the provisions of th is Agreement and the Statement of Work and use of an \nApplication Service. (vi) The parties agree to abide by restrictions, as described in the Business Associate \nAgreement, on the use of protected health information. (b) Rights in Application Se rvice Use (if Applicable) \n(i) Subject to the terms and conditions of this Ag reement, Cotiviti grants to Client a personal, \nnontransferable and nonexclusive right to use the Software , Application, or Application Service identified in any \nStatement of Work within and for the benefit of Client\u2019s  own internal business operations, and for no other \npurpose. (ii) Limitations on Client\u2019s rights: \n(A) The right to Application Service Use will not extend to any third party or any \nbusiness or operation of a third party, unless and until (i) Cotiviti is notified in writing of the desire for such \nextension, and (ii) Cotiviti and Client agree in writing as to appropriate increases, if any, in the payments required \nunder this Agreement. (B) No right is granted to Client to (i) make  Cotiviti Applications available in any \npublic electronic bulletin board, public computer based info rmation system, or the equivalent; (ii) publish, translate \nor transfer possession of Cotiviti Applications or copy an y portion thereof; or (iii) without prior written permission \nfrom Cotiviti, frame or deep-link into any page of any Cotiviti Application, or otherwise mask the appearance of \nCotiviti -identifying information on such page.",
+        "id": "qa_88",
+        "relevance": 1,
+        "relevance_explanation": "The context contains substantive legal information relevant to Maryland Physicians Care (MPC) regarding their obligations and rights in using Cotiviti's Application Services. It includes details about user account responsibilities, use restrictions, and compliance with a Business Associate Agreement, which are pertinent for generating legal questions about contract terms, user compliance, and data protection.",
+        "factuality": 0,
+        "critic_explanation": "The marked correct answer 'C' is not addressing the question about limitations on the Client's rights. Instead, it states a granted right, not a limitation. The limitations on Client's rights, as per the context, include restrictions like not making Cotiviti Applications available on public electronic bulletin boards, not transferring possession, and not framing or deep-linking without permission. Therefore, the correct answer doesn't align with the question's focus on limitations."
     },
     {
         "question": "How can you withdraw your consent to receive electronic notices and disclosures from Cotiviti?",
@@ -2998,6 +3038,26 @@
         "relevance_explanation": "The context contains substantive legal information relevant to Wellth, Inc. It outlines confidentiality terms concerning a potential transaction, mentions handling of Protected Health Information (PHI), and includes clauses on licensing, entire agreement, severability, and potential attorney fees. This information is useful for generating meaningful legal questions related to confidentiality agreements and transaction discussions.",
         "factuality": 1,
         "critic_explanation": "The question is answerable from the context, and the marked correct answer is directly supported by the context. The document specifies that Protected Health Information (PHI) is excluded from disclosure unless de-identified, aligning with the correct answer D."
+    },
+    {
+        "question": "What is the minimum period for which operational, financial, and administrative records must be maintained under the agreement?",
+        "options": {
+            "A": "5 years following contract termination",
+            "B": "Until the completion of an audit",
+            "C": "As required by law or regulation",
+            "D": "10 years following contract termination"
+        },
+        "correct_answer": "D",
+        "explanation": "The document specifies that records must be maintained for a minimum of ten years following the termination of the agreement between CMS and the Client.",
+        "source": "unknown",
+        "client": "Martin's Point Health Care",
+        "document_type": "unknown",
+        "context": "Such executives shall use all reasonable efforts to confer\nin person or by telephone within forty-eight (48) hours\nafter referral of a dispute, and thereafter as they\nreasonably deem necessary, to exchange relevant\ninformation and to attempt to resolve the dispute. (b) Subject to the provisions of this paragraph 9.15, in the\nevent of any dispute under this Agreement, or if it\nbecomes necessary for a party to bring legal action to\nenforce its rights under this Agreement, the prevailing\nparty in any such dispute or legal action or other\nproceeding shall be entitled to recover its reasonable\nlegal fees, costs, and expenses from the other party. 9.16 Records & Government Access. Verisk and\n\nClient shall maintain operational, financial, and\n\nadministrative records, contracts, books, files and other\n\ndocuments as required legally or pursuant to prudent\nbusiness practices in connection with Services performed\nunder this Agreement (\u201cRecords\u201d). Such Records shall be\n\nmaintained in a timely and accurate manner and shall, at a\n\nminimum, be maintained for a period of the longer of (i)\n\nten (10) years following the termination of the agreement\n\nbetween CMS and Client, or (ii) completion of an audit, or\n\n(iii) such other time period as required by law or\n\nregulation. | Upon request, Verisk and Client shall\n\npromptly give the HHS, the Comptroller General of the\n\nUnited States, CMS, and/or their designees the right to\n\naccess, audit, evaluate, and inspect any books, contracts,\n\ncomputer or electronic systems and the Records that\npertain to any aspect of the Agreement that the Secretary\nof HHS (or CMS) may deem necessary to enforce its\ncontract with Client.",
+        "id": "qa_172",
+        "relevance": 1,
+        "relevance_explanation": "The context contains substantive legal information relevant to contracts and agreements regarding dispute resolution, record maintenance, and government access. These details are pertinent to Martin's Point Health Care as they outline responsibilities and legal obligations under an agreement likely involving healthcare services. The information is useful for generating legal questions about enforcement of rights, maintenance of records, and government audits.",
+        "factuality": 0,
+        "critic_explanation": "The correct answer is incorrect based on the context. The context states that records must be maintained for the longer of ten years following the termination of the agreement, completion of an audit, or as required by law or regulation. Therefore, the minimum period could be until the completion of an audit or as required by law or regulation, not strictly ten years following contract termination."
     },
     {
         "question": "What is the required action for a Business Associate if it receives a request from an Individual to access their PHI?",

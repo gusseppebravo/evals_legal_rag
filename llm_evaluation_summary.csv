@@ -1,0 +1,46 @@
+id,question,client,document_type,correct_answer,predicted_answer,is_correct,latency_ms
+qa_1,What process does the Company follow if a Candidate is preliminarily disqualified during the targete,Aerotek,Security Addendum/Exhibit,B,B,True,1064.83
+qa_2,How can a client withdraw their consent to receive electronic notices and disclosures from Cotiviti?,Aerotek,SOW,C,C,True,552.02
+qa_3,What process must a candidate follow if preliminarily disqualified due to criminal background result,Aerotek,Security Addendum/Exhibit,A,A,True,628.3
+qa_4,What is the time period covered by the Supplemental Criminal Record Conviction Database search?,Aerotek,Security Addendum/Exhibit,A,B,False,465.38
+qa_5,What restrictions are placed on the transfer of Beneficiary protected health information (PHI) as pe,Aetna Life Insurance Company,Regulatory Addendum/Exhibit,A,A,True,812.5
+qa_6,What are the requirements for Business Associate regarding the protection of PHI and EPHI?,1199 SEIU National Benefit Funds,BAA,D,D,True,1096.76
+qa_7,How can a client withdraw their consent to receive electronic notices and disclosures from Cotiviti?,Aerotek,SOW,C,C,True,660.7
+qa_8,What is the authorized use of the STARS® Informant product according to the SOW?,1199 SEIU National Benefit Funds,SOW,A,unknown,False,360.44
+qa_9,"What type of information is defined as ""Highly Sensitive Information"" in the Security Addendum?",1199 SEIU National Benefit Funds,Security Addendum/Exhibit,B,A,False,609.79
+qa_10,"Which criminal background check package involves verifying records at the official data source, pote",Aerotek,Security Addendum/Exhibit,A,C,False,627.29
+qa_12,What restrictions are placed on financial incentives for Supplier staff in relation to Diagnosis Cod,Aetna Life Insurance Company,Amendment,A,A,True,702.29
+qa_13,What restrictions are placed on the Vendor regarding the use and disclosure of Highly Sensitive Info,1199 SEIU National Benefit Funds,Security Addendum/Exhibit,D,D,True,543.27
+qa_14,What is the procedure for candidates disqualified due to criminal background results according to Ae,Aerotek,Security Addendum/Exhibit,C,C,True,673.46
+qa_15,What is required for the execution of Work Order #1 according to the legal document?,1199 SEIU National Benefit Funds,Work Order / Change Request,D,D,True,836.75
+qa_16,What is the hourly fee for custom financial reporting and data requests outside of the specified Pro,Aetna Life Insurance Company,SOW,C,unknown,False,308.76
+qa_17,What is required by law when using the Criminal Record Conviction Database search package?,Aerotek,Security Addendum/Exhibit,A,A,True,530.64
+qa_18,What is the guaranteed system uptime percentage for CIT Tool during business hours?,1199 SEIU National Benefit Funds,SOW,A,unknown,False,194.09
+qa_19,"Who are considered ""Authorized Persons"" according to the Data Security Agreement?",1199 SEIU National Benefit Funds,Security Addendum/Exhibit,B,B,True,897.49
+qa_21,How can a client withdraw consent to receive electronic notices and disclosures from Cotiviti?,Aerotek,SOW,D,C,False,692.83
+qa_22,Which criminal background check package includes a search of criminal conviction records using socia,Aerotek,Security Addendum/Exhibit,A,A,True,812.95
+qa_23,What are the restrictions on the use of public funds according to Ohio Executive Order 2011-12K?,Aetna Life Insurance Company,SOW,A,A,True,725.77
+qa_24,How can a client withdraw their consent to receive electronic notices and disclosures from Cotiviti?,Aerotek,SOW,C,C,True,662.04
+qa_25,What must the Fund notify the Business Associate about concerning the use or disclosure of PHI?,1199 SEIU National Benefit Funds,BAA,C,C,True,1347.57
+qa_26,What is the scope of the Supplemental Criminal Record Conviction Database search as described in Aer,Aerotek,Security Addendum/Exhibit,D,unknown,False,245.33
+qa_27,What is the maximum timeframe for installing critical security patches on systems processing Company,Aetna Life Insurance Company,Addendum,B,D,False,873.77
+qa_28,How can a client withdraw consent to receive electronic notices and disclosures from Cotiviti?,Aerotek,SOW,A,A,True,812.44
+qa_29,What is the minimum duration for archiving audit trail data related to Company PHI?,Aetna Life Insurance Company,Addendum,D,A,False,565.68
+qa_30,What is the required minimum coding accuracy rate specified in the SOW for Aetna Life Insurance Comp,Aetna Life Insurance Company,SOW,B,unknown,False,245.4
+qa_31,What must a client do to consent to receiving electronic notices and disclosures from Verisk Health?,Aetna Life Insurance Company,Other,D,D,True,639.26
+qa_32,What is the process for a Candidate who is preliminarily disqualified based on criminal background r,Aerotek,Security Addendum/Exhibit,D,D,True,648.07
+qa_33,How can a client withdraw their consent to receive electronic notices and disclosures from Cotiviti?,Aerotek,SOW,B,C,False,676.72
+qa_34,What is a requirement for the Vendor in the event of a Security Breach?,1199 SEIU National Benefit Funds,Security Addendum/Exhibit,A,D,False,900.39
+qa_35,How can a client withdraw their consent to receive electronic notices and disclosures from Cotiviti?,Aerotek,SOW,B,B,True,697.41
+qa_36,Which functionality is the Supplier explicitly not allowed to perform under the Amendment with Aetna,Aetna Life Insurance Company,Amendment,A,A,True,1016.07
+qa_37,What is the required duration for archiving audit trail data related to access and alteration of Com,Aetna Life Insurance Company,Addendum,C,D,False,1155.71
+qa_38,"According to the BAA agreement, which of the following would NOT be considered a ""Breach"" under HIPA",1199 SEIU National Benefit Funds,BAA,C,B,False,901.06
+qa_39,What is the minimum retention period for Medicaid records as specified in the SOW?,Aetna Life Insurance Company,SOW,D,A,False,796.81
+qa_40,What should be done if attempts to verify an applicant’s educational credentials are unsuccessful?,Aerotek,Security Addendum/Exhibit,B,B,True,581.9
+qa_42,What is the duration for which criminal conviction records are searched in the Supplemental Criminal,Aerotek,Security Addendum/Exhibit,B,unknown,False,272.17
+qa_43,What is required of a Business Associate to ensure the protection and compliance of PHI and EPHI und,1199 SEIU National Benefit Funds,BAA,C,C,True,798.8
+qa_44,What is required from the Vendor regarding information privacy and security under the State Contract,Aetna Life Insurance Company,Addendum,D,D,True,687.19
+qa_46,What is the term duration for the Candidate Diosandy Solano as per the SOW?,Aerotek,SOW,B,unknown,False,256.24
+qa_47,What is the protocol if attempts to verify an applicant’s educational credentials are unsuccessful?,Aerotek,Security Addendum/Exhibit,B,A,False,595.21
+qa_48,What is the minimum coding accuracy rate Supplier must achieve each month?,Aetna Life Insurance Company,SOW,B,unknown,False,241.24
+qa_49,What is the required retention period for records related to the delivery of care or service under t,Aetna Life Insurance Company,SOW,C,C,True,659.88

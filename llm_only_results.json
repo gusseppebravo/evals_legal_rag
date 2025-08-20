@@ -1,0 +1,3206 @@
+[
+  {
+    "id": "qa_1",
+    "question": "Under what conditions can either party assign their rights and obligations under this agreement?",
+    "options": {
+      "A": "Without consent if assigning to a successor of substantially all business assets.",
+      "B": "Without consent if the agreement is executed in counterparts.",
+      "C": "With consent only if the assignment is for less than half of the obligations.",
+      "D": "With prior written consent from the other party."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "is_correct": false,
+    "response": "Answer: D\nExplanation: Typically, contracts require prior written consent from the other party for assignment of rights and obligations to ensure both parties agree to the new terms and conditions.",
+    "latency_ms": 753.51,
+    "client": "Ochsner Health System",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_2",
+    "question": "What is the primary restriction on the use and disclosure of Confidential Information under the NDA between ATRIO Health Plans and the Receiving Party?",
+    "options": {
+      "A": "Confidential Information must be shared with all employees.",
+      "B": "Confidential Information can only be used in relation to the Potential Transaction.",
+      "C": "Confidential Information can be used for any business purpose.",
+      "D": "Confidential Information can be disclosed to third parties without permission."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Typically, NDAs restrict the use of Confidential Information to specific purposes, such as the evaluation or execution of a Potential Transaction, to prevent misuse or unauthorized disclosure.",
+    "latency_ms": 533.16,
+    "client": "ATRIO Health Plans",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_5",
+    "question": "What rights does the Business Associate Agreement (BAA) provide regarding individuals' protected health information?",
+    "options": {
+      "A": "The right to obtain a copy of information in an electronic format.",
+      "B": "The right to terminate the agreement with immediate effect.",
+      "C": "The right to receive compensation for disclosed information.",
+      "D": "The right to audit and monitor financial transactions."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: A Business Associate Agreement (BAA) typically includes provisions related to the handling of protected health information (PHI), including the right for individuals to obtain a copy of their information in an electronic format, as required by HIPAA regulations.",
+    "latency_ms": 662.28,
+    "client": "Crumdale Partners - Better Benefits",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_6",
+    "question": "What is the non-competition clause in the agreement?",
+    "options": {
+      "A": "Licensee cannot develop similar products during the term and one year after termination.",
+      "B": "Licensee cannot publicly disclose the commercial relationship with Licensor.",
+      "C": "Licensee can hire third parties to develop similar products during the agreement.",
+      "D": "Licensee can develop similar products immediately after termination."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: A non-competition clause typically restricts a party from engaging in similar business activities that compete with the other party during the term of the agreement and often for a period after termination. Option A aligns with this common legal practice.",
+    "latency_ms": 784.54,
+    "client": "Capital Health Plan, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_7",
+    "question": "What is required before Cotiviti can use offshore subcontractors or employees to access PHI?",
+    "options": {
+      "A": "Cotiviti must receive client approval",
+      "B": "Cotiviti must notify the client 30 days in advance",
+      "C": "No approval is necessary",
+      "D": "Cotiviti must provide detailed records of access"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Client approval is typically required before allowing offshore subcontractors or employees to access Protected Health Information (PHI) due to privacy and security concerns.",
+    "latency_ms": 573.79,
+    "client": "Maryland Physicians Care (MPC)",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_8",
+    "question": "Which type of incident does NOT require Response and Reporting measures according to section 1.1.9?",
+    "options": {
+      "A": "Service attacks that do not result in a server being taken offline",
+      "B": "Introduction of malware that does not result in unauthorized access",
+      "C": "Unauthorized acquisition of BSC Data",
+      "D": "Invalid password attempts"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "is_correct": false,
+    "response": "Answer: D\nExplanation: Invalid password attempts are typically considered minor security incidents and may not require formal Response and Reporting measures unless they are part of a larger pattern indicating a security threat.",
+    "latency_ms": 531.08,
+    "client": "Blue Shield of California",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_9",
+    "question": "Under what circumstances is the Business Associate allowed to receive remuneration in exchange for PHI?",
+    "options": {
+      "A": "Without any restrictions.",
+      "B": "Only for marketing purposes.",
+      "C": "Only with prior written consent of MPHC and as permitted by the HITECH Act.",
+      "D": "For payment related to health care operations regardless of consent."
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Under the HITECH Act, a Business Associate can receive remuneration in exchange for PHI only with prior written consent and as permitted by the Act. This ensures compliance with privacy regulations.",
+    "latency_ms": 805.01,
+    "client": "Martin's Point Health Care",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_10",
+    "question": "Under the MSA, which circumstance requires Cotiviti to indemnify ACA Health Benefits Fund?",
+    "options": {
+      "A": "Non-payment of Fees by Client",
+      "B": "Failure to maintain Required Insurance",
+      "C": "Consequential Loss caused by Cotiviti",
+      "D": "Wilful Misconduct or Gross Negligence by Cotiviti"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Indemnification clauses typically cover situations involving wilful misconduct or gross negligence by a party, as these actions can lead to significant liability and damages.",
+    "latency_ms": 470.7,
+    "client": "ACA Health Benefits Fund",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_11",
+    "question": "What is required of the Receiving Party upon termination of the agreement concerning Confidential Information?",
+    "options": {
+      "A": "Transfer all Confidential Information to a third-party for safekeeping.",
+      "B": "Destroy or deliver all Confidential Information to the Disclosing Party, except for a single archival copy.",
+      "C": "Return all Confidential Information without retaining any copies.",
+      "D": "Retain all electronic and digital copies of Confidential Information indefinitely."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "response": "Answer: C\nExplanation: Typically, upon termination of an agreement, the Receiving Party is required to return all Confidential Information to the Disclosing Party without retaining any copies, to ensure that the confidentiality is maintained and the information is not used or disclosed further.",
+    "latency_ms": 777.09,
+    "client": "Crumdale Partners - Better Benefits",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_12",
+    "question": "Which clause describes the effect of a force majeure event on the Licensor\u2019s performance?",
+    "options": {
+      "A": "Licensor\u2019s performance is terminated and considered a default",
+      "B": "Licensor must renegotiate terms with Licensee",
+      "C": "Licensor\u2019s performance is excused and the time for performance is extended",
+      "D": "Licensor must continue performance without delay"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: A force majeure clause typically excuses a party from liability or obligation when an extraordinary event or circumstance beyond their control prevents them from fulfilling contractual obligations. It often allows for an extension of time for performance rather than termination or renegotiation.",
+    "latency_ms": 562.31,
+    "client": "Capital Health Plan, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_14",
+    "question": "What does the agreement state regarding the creation of formal business relationships between the parties?",
+    "options": {
+      "A": "There is no obligation to enter into a formal business organization.",
+      "B": "The parties must share profits and liabilities.",
+      "C": "The parties are bound to enter into a partnership.",
+      "D": "The agreement establishes a joint venture."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Agreements often include clauses stating that there is no obligation to enter into formal business relationships unless explicitly agreed upon, to avoid unintended partnerships or joint ventures.",
+    "latency_ms": 505.5,
+    "client": "Crumdale Partners - Better Benefits",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_15",
+    "question": "What must the Receiving Party do with Confidential Information upon termination of the Agreement or upon written request from the Disclosing Party?",
+    "options": {
+      "A": "Retain all copies for future reference",
+      "B": "Deliver all copies to the Disclosing Party",
+      "C": "Distribute copies to relevant departments for processing",
+      "D": "Destroy all documents and materials except a single archival copy for legal purposes"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "B",
+    "is_correct": false,
+    "response": "Answer: B\nExplanation: Typically, upon termination of an agreement or upon request, the Receiving Party is required to return all copies of Confidential Information to the Disclosing Party to ensure that the information is no longer in their possession and to protect the confidentiality of the information.",
+    "latency_ms": 1129.06,
+    "client": "Crumdale Partners - Better Benefits",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_16",
+    "question": "What remedy is available to the Disclosing Party for a breach of the agreement?",
+    "options": {
+      "A": "Termination of the agreement",
+      "B": "Money damages only",
+      "C": "Arbitration",
+      "D": "Specific performance and/or injunctive relief"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Specific performance and/or injunctive relief are common remedies for breach of agreements involving confidentiality or non-disclosure, as they aim to prevent further breaches and enforce compliance with the agreement terms.",
+    "latency_ms": 526.85,
+    "client": "Wellth, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_17",
+    "question": "What actions must be taken if a party becomes aware of a data breach according to the MSA?",
+    "options": {
+      "A": "Notify the regulatory authorities immediately and cease communication with the other party.",
+      "B": "Delay notifying the other party until a full investigation is complete.",
+      "C": "Promptly notify the other party and meet to discuss the next steps regarding investigation and handling of the breach.",
+      "D": "Promptly notify the other party and then handle the breach independently."
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Typically, MSAs require parties to promptly notify each other of data breaches and collaborate on the investigation and handling of the breach to ensure compliance and mitigate risks.",
+    "latency_ms": 543.95,
+    "client": "ACA Health Benefits Fund",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_18",
+    "question": "Under the NDA, when do the obligations regarding Confidential Information cease to apply?",
+    "options": {
+      "A": "When the receiving party independently develops the information without reference to the Confidential Information",
+      "B": "When the receiving party sells the information to a competitor",
+      "C": "When the information is disclosed to a third party",
+      "D": "When the receiving party uses the information for its own purposes"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Under typical NDA terms, obligations regarding Confidential Information cease when the information is independently developed by the receiving party without reference to the Confidential Information, as it is no longer considered confidential.",
+    "latency_ms": 613.68,
+    "client": "Advise Insurance",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_19",
+    "question": "What is the permitted use of Confidential Information under the NDA?",
+    "options": {
+      "A": "To reverse engineer prototypes to improve own products.",
+      "B": "To disclose to third parties for marketing purposes.",
+      "C": "To evaluate a business relationship with the disclosing party.",
+      "D": "To develop new products independently."
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: NDAs typically allow the use of Confidential Information to evaluate a business relationship with the disclosing party, as this is often the purpose of sharing such information.",
+    "latency_ms": 563.91,
+    "client": "Advise Insurance",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_20",
+    "question": "What is included in the Technical Specification Document according to the Work Order / Change Request?",
+    "options": {
+      "A": "Only Roles and Responsibilities",
+      "B": "System Access Requirements and Data Mapping Requirements",
+      "C": "Functional and Technical Design Requirements such as Scope and Business Parameters",
+      "D": "B and C are both included"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Technical Specification Documents typically include detailed requirements such as System Access Requirements, Data Mapping Requirements, Functional and Technical Design Requirements, Scope, and Business Parameters. Therefore, both B and C are included.",
+    "latency_ms": 536.61,
+    "client": "1199 SEIU National Benefit Funds",
+    "document_type": "Work Order / Change Request",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_21",
+    "question": "What is the duration of the confidentiality obligations after the expiration or termination of the agreement?",
+    "options": {
+      "A": "1 year after the Effective Date",
+      "B": "3 years after the Effective Date",
+      "C": "Until the agreement is terminated",
+      "D": "2 years after the Effective Date"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Confidentiality obligations typically extend beyond the termination of an agreement, often for a period of 2 to 3 years. Option B, 3 years after the Effective Date, is a common duration for such obligations.",
+    "latency_ms": 748.96,
+    "client": "Ochsner Health System",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_22",
+    "question": "What is permitted regarding the use of Confidential Information according to the agreement?",
+    "options": {
+      "A": "Using it in competitive products without restrictions",
+      "B": "Using it for product development without restrictions",
+      "C": "Sharing it freely with all employees",
+      "D": "Using it for any third party\u2019s benefit with prior written approval"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Confidential Information is typically protected under agreements, and its use is restricted. Using it for any third party\u2019s benefit usually requires prior written approval to ensure that the information is not misused or disclosed improperly.",
+    "latency_ms": 715.6,
+    "client": "Arthur J Gallagher & Co.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_23",
+    "question": "What does the Miscellaneous section of the MSA state regarding reliance on representations?",
+    "options": {
+      "A": "Parties can rely on written representations made after the Agreement.",
+      "B": "Parties can rely on inducements from third parties.",
+      "C": "Parties cannot rely on any representations outside of those expressly contained within the Agreement.",
+      "D": "Parties can rely on oral representations made before the Agreement."
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Typically, the Miscellaneous section of a Master Service Agreement (MSA) includes a clause stating that parties cannot rely on any representations outside of those expressly contained within the Agreement. This is known as an \"entire agreement\" or \"integration\" clause, which aims to prevent reliance on external statements or promises not included in the written contract.",
+    "latency_ms": 788.55,
+    "client": "Accenture",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_24",
+    "question": "What restrictions are placed on the use of Confidential Information according to the NDA with 7-Eleven?",
+    "options": {
+      "A": "It must only be used for evaluating the Potential Transaction and cannot be disclosed without prior written consent.",
+      "B": "It can only be used for marketing purposes related to the Potential Transaction.",
+      "C": "It can be used for any commercial purpose as long as it remains confidential.",
+      "D": "It can be shared with any third party if they agree to confidentiality."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, NDAs restrict the use of confidential information to specific purposes, such as evaluating a potential transaction, and prohibit disclosure without consent. This is a common clause to protect sensitive information.",
+    "latency_ms": 611.46,
+    "client": "7-Eleven",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_26",
+    "question": "What does the NDA specify about the ownership of Confidential Information?",
+    "options": {
+      "A": "Confidential Information becomes joint property of both parties.",
+      "B": "Ownership of Confidential Information is transferred to the Receiving Party.",
+      "C": "The Receiving Party gains partial ownership of the Confidential Information.",
+      "D": "Confidential Information remains the sole property of the Disclosing Party."
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Typically, NDAs specify that Confidential Information remains the sole property of the Disclosing Party, ensuring that the Receiving Party does not gain any ownership rights.",
+    "latency_ms": 485.88,
+    "client": "Abarca Health LLC",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_27",
+    "question": "What actions must the contractor take when receiving a request for access or amendment of PHI?",
+    "options": {
+      "A": "Amend the PHI directly without involving HHS.",
+      "B": "Promptly forward the request to HHS or notify HHS if forwarding violates HIPAA.",
+      "C": "Immediately respond to the request without notifying HHS.",
+      "D": "Forward the request to the individual who made it."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Under HIPAA regulations, contractors must promptly forward requests for access or amendment of PHI to the covered entity, such as HHS, or notify them if forwarding the request would violate HIPAA. This ensures compliance with privacy rules and proper handling of PHI.",
+    "latency_ms": 608.96,
+    "client": "Accenture",
+    "document_type": "DUA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_28",
+    "question": "Under what circumstances can Community First request Business Associate to use or disclose PHI?",
+    "options": {
+      "A": "In any manner deemed necessary by Community First",
+      "B": "In any manner that enhances business operations",
+      "C": "Only in ways permissible under the Privacy Rule",
+      "D": "Only for marketing purposes"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Under the HIPAA Privacy Rule, a Business Associate can only use or disclose PHI in ways that are permissible under the Privacy Rule, which includes treatment, payment, and healthcare operations, among other specific circumstances.",
+    "latency_ms": 719.26,
+    "client": "Community First Health Plans",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_29",
+    "question": "What rights does the Business Associate have regarding the ownership of PHI?",
+    "options": {
+      "A": "The Business Associate shares ownership rights of PHI with MPHC",
+      "B": "The Business Associate can acquire ownership rights to PHI after fulfilling obligations",
+      "C": "The Business Associate has full ownership rights to PHI",
+      "D": "The Business Associate has no ownership rights to PHI"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Under HIPAA regulations, a Business Associate does not have ownership rights to PHI. They are permitted to use and disclose PHI only as outlined in their agreement with the Covered Entity, but ownership remains with the Covered Entity or the individual to whom the PHI pertains.",
+    "latency_ms": 833.83,
+    "client": "Martin's Point Health Care",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_30",
+    "question": "What is the requirement for data destruction of ACS PHI or PI according to Accenture's BAA?",
+    "options": {
+      "A": "Data must be wiped using the US Department of Defense (DoD) 5220.22-M standard only.",
+      "B": "Data must be wiped using the Gutmann standard or US Department of Defense (DoD) 5220.22-M (7 Pass) standard, or by degaussing.",
+      "C": "Data must be stored indefinitely without destruction.",
+      "D": "Data can be destroyed using any method without prior approval."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 927.44,
+    "client": "Accenture",
+    "document_type": "BAA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_31",
+    "question": "According to the document, how often can audits be conducted to ensure compliance with Data Protection Laws?",
+    "options": {
+      "A": "Annually",
+      "B": "Monthly",
+      "C": "Biannually",
+      "D": "Quarterly"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 217.61,
+    "client": "Albertsons Companies, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_32",
+    "question": "What is the duration of the Nondisclosing Party\u2019s obligations for Confidential Information that constitutes a trade secret under applicable law according to the NDA?",
+    "options": {
+      "A": "Three years after disclosure",
+      "B": "Indefinitely regardless of trade secret status",
+      "C": "For as long as the information remains a trade secret under applicable law",
+      "D": "Until all agreements between the Parties are terminated"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Under general legal principles, obligations to maintain the confidentiality of trade secrets typically last as long as the information remains a trade secret under applicable law. This is because the value of a trade secret is inherently tied to its secrecy.",
+    "latency_ms": 739.06,
+    "client": "7-Eleven",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_33",
+    "question": "What must the Receiving Party do with Confidential Information upon termination of the agreement or upon request from the Disclosing Party?",
+    "options": {
+      "A": "Retain all documents and materials for future reference.",
+      "B": "Destroy or deliver all documents and materials, except for a single archival copy retained by the legal department.",
+      "C": "Store all documents and materials indefinitely on backup media.",
+      "D": "Convert all documents and materials into non-confidential information."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Typically, upon termination of an agreement or upon request, the Receiving Party is required to destroy or return all confidential information to the Disclosing Party, except for a single archival copy that may be retained for legal compliance purposes.",
+    "latency_ms": 582.86,
+    "client": "Maryland Physicians Care (MPC)",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_34",
+    "question": "Under what conditions can a party assign its rights and obligations under this agreement without prior written consent from the other party?",
+    "options": {
+      "A": "Assignment is allowed if the successor in ownership expressly assumes the agreement terms in writing.",
+      "B": "Assignment can occur freely without any conditions.",
+      "C": "Assignment is never allowed without prior written consent.",
+      "D": "Assignment is allowed only if both parties agree verbally."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, assignment of rights and obligations under a contract requires consent, but it can be allowed if the successor expressly assumes the agreement terms in writing, ensuring continuity and acknowledgment of the contract terms.",
+    "latency_ms": 1143.03,
+    "client": "Ochsner Health System",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_35",
+    "question": "What is required before a Provider can file a legal proceeding against Blue Cross and Blue Shield of Nebraska?",
+    "options": {
+      "A": "A peer-to-peer discussion involving the Provider, Client, and Cotiviti",
+      "B": "Cotiviti providing testimony at State Fair Hearings",
+      "C": "Immediate filing without any discussions",
+      "D": "Approval of process documented via email"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: A peer-to-peer discussion is often a prerequisite to legal proceedings in order to attempt resolution before escalating to court. This is a common practice to ensure all parties have had the opportunity to discuss and potentially resolve the issue.",
+    "latency_ms": 719.69,
+    "client": "Blue Cross and Blue Shield of Nebraska",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_36",
+    "question": "Under the agreement, how may the Receiving Party use the Disclosing Party's Confidential Information?",
+    "options": {
+      "A": "For personal use",
+      "B": "Only for exercising rights and performing obligations related to the Potential Transaction",
+      "C": "For disclosure to any Third Party without restriction",
+      "D": "For any business purpose"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Typically, confidentiality agreements restrict the use of confidential information to specific purposes related to the transaction or agreement between the parties. Using the information for personal use, disclosure to third parties, or any business purpose would generally violate such agreements.",
+    "latency_ms": 585.97,
+    "client": "Crumdale Partners - Better Benefits",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_37",
+    "question": "What is required from Vendor and/or Consultant when accessing the benefit administration systems?",
+    "options": {
+      "A": "Use commercially reasonable security measures",
+      "B": "Share their access with other entities",
+      "C": "Ignore the Company\u2019s security measures",
+      "D": "Transfer their access rights to another party"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Using commercially reasonable security measures is a standard requirement to ensure data protection and compliance with privacy laws when accessing sensitive systems.",
+    "latency_ms": 410.07,
+    "client": "Boston Benefit Partners",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_38",
+    "question": "Under the MSA agreement, to whom may the Client disclose Confidential Information, and under what conditions?",
+    "options": {
+      "A": "To any third party without restrictions",
+      "B": "To employees of Advantmed India LLP and Optum Health \u2013 CDO with specific conditions",
+      "C": "Only to Optum Health \u2013 CDO with no conditions",
+      "D": "To any subcontractors without any prior permissions"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Typically, MSA agreements allow disclosure of Confidential Information to specific parties such as employees or partners under certain conditions, like ensuring they are bound by confidentiality obligations. This is a common practice to protect sensitive information.",
+    "latency_ms": 526.12,
+    "client": "AdvantMed",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_39",
+    "question": "What must occur when either party becomes aware of a data breach according to the MSA?",
+    "options": {
+      "A": "The party must promptly notify the other party and meet to discuss next steps.",
+      "B": "The party must immediately fix the breach without notifying the other party.",
+      "C": "The party must ensure all personnel are informed of the breach before notifying the other party.",
+      "D": "The party must notify the regulatory authorities before informing the other party."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, legal agreements like a Master Service Agreement (MSA) require parties to promptly notify each other of a data breach to coordinate a response and comply with legal obligations.",
+    "latency_ms": 693.83,
+    "client": "ACA Health Benefits Fund",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_40",
+    "question": "What is the requirement for Business Associate when receiving a request, subpoena, or order to disclose PHI?",
+    "options": {
+      "A": "Business Associate must notify Covered Entity within 30 days.",
+      "B": "Business Associate must notify Covered Entity within 5 days.",
+      "C": "Business Associate must challenge the validity independently.",
+      "D": "Business Associate must comply immediately without notification."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Under HIPAA regulations, a Business Associate is typically required to notify the Covered Entity promptly, often within a short timeframe such as 5 days, when they receive a request, subpoena, or order to disclose PHI. This allows the Covered Entity to take appropriate action to protect the PHI.",
+    "latency_ms": 680.16,
+    "client": "Sierra Health Plan of Nevada",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_42",
+    "question": "What is the Receiving Party required to do with the Confidential Information upon request by the Disclosing Party?",
+    "options": {
+      "A": "Retain all Confidential Information but cease its use.",
+      "B": "Destroy all Confidential Information except automatically generated backups.",
+      "C": "Destroy all copies, including automatically generated backups.",
+      "D": "Continue using Confidential Information but with increased security measures."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "response": "Answer: C\nExplanation: Typically, legal agreements require the Receiving Party to destroy all copies of Confidential Information, including backups, to ensure complete removal and prevent any unauthorized use or disclosure.",
+    "latency_ms": 566.57,
+    "client": "Wellth, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_43",
+    "question": "What rights are included in the Business Associate Agreement regarding individuals' protected health information?",
+    "options": {
+      "A": "The right to obtain PHI in a paper format only",
+      "B": "The right to audit and monitor activities involving PHI",
+      "C": "The right to prevent any disclosure of PHI",
+      "D": "The right to delete personal information permanently"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: A Business Associate Agreement typically includes provisions for auditing and monitoring activities involving PHI to ensure compliance with HIPAA regulations.",
+    "latency_ms": 533.8,
+    "client": "Abarca Health LLC",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_44",
+    "question": "How is Confidential Information defined in the agreement between the Parties?",
+    "options": {
+      "A": "Information shared only through electronic communication.",
+      "B": "Only information shared in written form marked as confidential.",
+      "C": "Only Proprietary Information and Third Party Information explicitly marked as confidential.",
+      "D": "All non-public information concerning the Disclosing Party or its business, including oral, visual, written, electronic, or other forms."
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Confidential Information is typically defined broadly to include all non-public information related to the disclosing party, regardless of the form in which it is shared. This ensures comprehensive protection of sensitive information.",
+    "latency_ms": 561.71,
+    "client": "Wellth, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_45",
+    "question": "What is the duration of the Nondisclosing Party\u2019s obligations concerning Confidential Information that is considered a trade secret under the NDA?",
+    "options": {
+      "A": "Until the Confidential Information no longer constitutes a trade secret",
+      "B": "Three (3) years after disclosure",
+      "C": "Until the termination of all agreements between the Parties",
+      "D": "Indefinitely"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Trade secrets are protected as long as they remain secret and provide economic value. Therefore, the obligation typically lasts until the information no longer qualifies as a trade secret.",
+    "latency_ms": 572.5,
+    "client": "7-Eleven",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_46",
+    "question": "What must Vendor and Consultant do with Proprietary Information at the conclusion of services?",
+    "options": {
+      "A": "Relinquish or destroy the information",
+      "B": "Store the information securely for 5 years",
+      "C": "Share the information with authorized third parties",
+      "D": "Transfer ownership to Employer"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, at the conclusion of services, parties are required to relinquish or destroy proprietary information to protect confidentiality and prevent unauthorized use or disclosure.",
+    "latency_ms": 493.74,
+    "client": "Boston Benefit Partners",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_47",
+    "question": "Under what conditions can the Recipient disclose Confidential Information?",
+    "options": {
+      "A": "If the Recipient has prior knowledge before receiving it from the Owner",
+      "B": "If required by law, with prompt notification to the Owner",
+      "C": "If the information becomes generally known by third parties",
+      "D": "If the information is independently developed by the Recipient"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Generally, legal agreements allow for the disclosure of confidential information if required by law, provided the Recipient promptly notifies the Owner to allow them to seek protective measures.",
+    "latency_ms": 530.66,
+    "client": "The Standard",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_48",
+    "question": "What does the term \"Sensitive Personal Information\" include according to the document?",
+    "options": {
+      "A": "First name or initial and last name with credit card information",
+      "B": "Only driver\u2019s license number",
+      "C": "Just the social security number",
+      "D": "Any combination of first name and last name"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Sensitive Personal Information typically includes combinations of personal identifiers with financial information, such as a name with a credit card number, which can be used for identity theft or fraud.",
+    "latency_ms": 639.23,
+    "client": "Community First Health Plans",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_49",
+    "question": "What security measures must COMPANY implement for network security according to the document?",
+    "options": {
+      "A": "Utilizing only wireless connections without firewalls",
+      "B": "Using a switched-network topology without password protection",
+      "C": "Establishing thresholds and alarms to notify personnel of potential problems or outages",
+      "D": "Allowing unrestricted access to network scan results"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Establishing thresholds and alarms to notify personnel of potential problems or outages is a common security measure in network security to ensure timely response to issues.",
+    "latency_ms": 507.36,
+    "client": "Humana",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_50",
+    "question": "What rights are provided to individuals under the BAA regarding their protected health information?",
+    "options": {
+      "A": "The right to transmit their information to another entity or person",
+      "B": "The right to delete their information permanently",
+      "C": "The right to receive compensation for data usage",
+      "D": "The right to obtain a copy of information in paper format"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "is_correct": false,
+    "response": "Answer: D\nExplanation: Under a Business Associate Agreement (BAA), individuals typically have the right to obtain a copy of their protected health information, often in paper format, as part of their rights under HIPAA regulations.",
+    "latency_ms": 650.62,
+    "client": "Crumdale Partners - Better Benefits",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_51",
+    "question": "What requirement must be met before the disclosure of PHI to a Business Associate as per the HIPAA Privacy Rule?",
+    "options": {
+      "A": "Business Associate must undergo a HIPAA compliance audit.",
+      "B": "Business Associate must sign a contract containing specific requirements.",
+      "C": "Business Associate must provide proof of data encryption.",
+      "D": "Business Associate must be registered with the U.S. Department of Health and Human Services."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Under the HIPAA Privacy Rule, a covered entity must have a Business Associate Agreement (BAA) in place before disclosing PHI to a Business Associate. This contract contains specific requirements to ensure the protection of PHI.",
+    "latency_ms": 599.88,
+    "client": "Sierra Health Plan of Nevada",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_52",
+    "question": "What is the main purpose of the Work Order (WO) #1 executed between Cotiviti, Inc. and the 1199 SEIU National Benefit Funds?",
+    "options": {
+      "A": "To outline the process for data interface between the Client and Cotiviti.",
+      "B": "To provide payment details and deadlines for services rendered.",
+      "C": "To confirm legal binding and execution of signatures.",
+      "D": "To establish roles and responsibilities for IT deliverables."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Work Orders typically outline specific tasks or processes to be completed, such as data interfaces, as part of a larger contract or agreement.",
+    "latency_ms": 697.06,
+    "client": "1199 SEIU National Benefit Funds",
+    "document_type": "Work Order / Change Request",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_53",
+    "question": "What must the Receiving Party do with Confidential Information upon termination of the agreement or upon Disclosing Party\u2019s request?",
+    "options": {
+      "A": "Retain all Confidential Information indefinitely",
+      "B": "Backup all Confidential Information and delete all original copies",
+      "C": "Transfer all Confidential Information to a third party",
+      "D": "Destroy or return all Confidential Information, except for a single archival copy for dispute resolution"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Typically, upon termination of an agreement or upon request, the Receiving Party is required to destroy or return all Confidential Information to protect the Disclosing Party\"s interests. However, retaining a single archival copy for dispute resolution is often allowed to ensure compliance with legal obligations.",
+    "latency_ms": 2342.0,
+    "client": "Maryland Physicians Care (MPC)",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_54",
+    "question": "Which of the following is considered \"Confidential Information\" according to the NDA?",
+    "options": {
+      "A": "Publicly available marketing strategies",
+      "B": "General industry knowledge",
+      "C": "Information disclosed before the Effective Date",
+      "D": "Pricing and terms under agreements"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Pricing and terms under agreements are typically considered confidential information in NDAs, as they are specific to the parties involved and not publicly available.",
+    "latency_ms": 567.25,
+    "client": "7-Eleven",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_55",
+    "question": "Under the NDA between Abarca Health LLC and Cotiviti, Inc., what is the status of ownership of the Confidential Information?",
+    "options": {
+      "A": "Ownership rights are shared equally between both parties.",
+      "B": "The Receiving Party gains joint ownership with the Disclosing Party.",
+      "C": "The Disclosing Party retains sole and exclusive ownership of the Confidential Information.",
+      "D": "The Receiving Party gains full ownership of the Confidential Information."
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Typically, in NDAs, the Disclosing Party retains sole and exclusive ownership of the Confidential Information. The Receiving Party is granted access to the information under confidentiality obligations but does not gain ownership rights.",
+    "latency_ms": 742.63,
+    "client": "Abarca Health LLC",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_56",
+    "question": "According to the NDA, what is required for the Nondisclosing Party to share Confidential Information with its Representatives?",
+    "options": {
+      "A": "Verbal consent from the Disclosing Party",
+      "B": "Notification to the Disclosing Party",
+      "C": "Written agreement from Representatives to be bound by confidentiality provisions",
+      "D": "Prior written consent from the Disclosing Party"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "D",
+    "is_correct": false,
+    "response": "Answer: D\nExplanation: Typically, NDAs require prior written consent from the Disclosing Party before sharing Confidential Information with third parties, including Representatives, to ensure that confidentiality is maintained.",
+    "latency_ms": 517.29,
+    "client": "7-Eleven",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_57",
+    "question": "What must a party do when they become aware of a Data Breach according to the MSA with ACA Health Benefits Fund?",
+    "options": {
+      "A": "Ignore the breach and continue business as usual.",
+      "B": "Notify the other party and discuss next steps regarding investigation and handling.",
+      "C": "Immediately terminate the agreement with the other party.",
+      "D": "Disclose all confidential information related to the breach publicly."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Generally, when a party becomes aware of a data breach, they are required to notify the other party and discuss next steps for investigation and handling, as this aligns with standard practices for managing data breaches and maintaining trust and compliance.",
+    "latency_ms": 529.03,
+    "client": "ACA Health Benefits Fund",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_58",
+    "question": "Under what circumstances is the Confidential Information not protected by the NDA?",
+    "options": {
+      "A": "If the information becomes public due to actions of the Disclosing Party.",
+      "B": "If the information is known to the Nondisclosing Party before disclosure.",
+      "C": "If the information is available from a public source and the Nondisclosing Party is unaware of any confidentiality obligation.",
+      "D": "If the Nondisclosing Party discloses the information to the public."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "is_correct": false,
+    "response": "Answer: A\nExplanation: Confidential Information is typically not protected by an NDA if it becomes public through actions of the Disclosing Party, as the confidentiality obligation is compromised by the party responsible for maintaining it.",
+    "latency_ms": 613.67,
+    "client": "7-Eleven",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_59",
+    "question": "What is the time frame within which the Business Associate must report improper use or disclosure of PHI?",
+    "options": {
+      "A": "Within 30 days of becoming aware",
+      "B": "Within 60 days of becoming aware",
+      "C": "Within 15 days of discovery",
+      "D": "Immediately upon discovery"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "is_correct": false,
+    "response": "Answer: D\nExplanation: Under HIPAA regulations, a Business Associate is typically required to report any improper use or disclosure of PHI to the covered entity without unreasonable delay and in no case later than 60 days. However, \"immediately upon discovery\" is often the standard expectation to ensure prompt action and compliance.",
+    "latency_ms": 1337.93,
+    "client": "Sierra Health Plan of Nevada",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_61",
+    "question": "What is the definition of \"Medically Necessary\" under the provisions of this SOW?",
+    "options": {
+      "A": "Services or supplies determined to be appropriate and necessary for the symptoms, diagnosis, or treatment of the medical condition.",
+      "B": "Services or supplies provided primarily for the convenience of the Participant's physician.",
+      "C": "Services or supplies within good medical practice standards, regardless of necessity.",
+      "D": "Services or supplies that are convenient for the Participant."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Medically necessary services or supplies are typically defined as those that are appropriate and necessary for the symptoms, diagnosis, or treatment of a medical condition, aligning with standard medical practices.",
+    "latency_ms": 714.58,
+    "client": "Maryland Physicians Care (MPC)",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_62",
+    "question": "What is the procedure to withdraw consent for receiving electronic notices and disclosures via DocuSign?",
+    "options": {
+      "A": "Mail a written request to Self Insured Services Co.",
+      "B": "Call customer service for Self Insured Services Co.",
+      "C": "Send an email request to Self Insured Services Co.",
+      "D": "Use the DocuSign \"Withdraw Consent\" form on the signing page."
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Typically, electronic platforms like DocuSign provide a direct method to withdraw consent through their interface, such as a form or option on the signing page, to ensure a streamlined and documented process.",
+    "latency_ms": 529.98,
+    "client": "Self Insured Services Co",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_64",
+    "question": "What is the minimum period for which Vendor is required to perform a criminal conviction check on Vendor Personnel?",
+    "options": {
+      "A": "5 years",
+      "B": "7 years",
+      "C": "Indefinite",
+      "D": "10 years"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Typically, a 7-year period is a standard duration for conducting criminal background checks, as it aligns with common practices in employment and vendor agreements.",
+    "latency_ms": 655.03,
+    "client": "Blue Cross and Blue Shield of Nebraska",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_65",
+    "question": "What is the permitted use of Confidential Information according to the NDA with Advise Insurance?",
+    "options": {
+      "A": "To enter into a subcontract or contract automatically",
+      "B": "To develop new products independently",
+      "C": "To disclose information to third parties without consent",
+      "D": "To evaluate a business relationship with the disclosing party"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: NDAs typically allow the use of confidential information to evaluate or pursue a business relationship with the disclosing party, while prohibiting disclosure to third parties or use for independent product development without consent.",
+    "latency_ms": 577.42,
+    "client": "Advise Insurance",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_66",
+    "question": "Under the agreement, what happens if a party fails to exercise its rights due to a Force Majeure event?",
+    "options": {
+      "A": "The party can have its performance obligations extended by a reasonable period.",
+      "B": "The party can exercise its rights after notifying the other party within 30 days.",
+      "C": "The party forfeits its rights permanently.",
+      "D": "The party must terminate the agreement immediately."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Force Majeure clauses typically allow for the extension of performance obligations due to unforeseen events, rather than forfeiting rights or requiring immediate termination.",
+    "latency_ms": 623.63,
+    "client": "Maryland Physicians Care (MPC)",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_67",
+    "question": "What must the company do to protect Personal Data according to the document?",
+    "options": {
+      "A": "Maintain any security measures regardless of relevance.",
+      "B": "Implement and maintain current and reasonable security measures.",
+      "C": "Implement outdated security measures.",
+      "D": "Ignore Data Protection Laws when processing Personal Data."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Companies are generally required to implement and maintain current and reasonable security measures to protect personal data, in compliance with data protection laws and regulations.",
+    "latency_ms": 484.1,
+    "client": "Albertsons Companies, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_68",
+    "question": "What remedies are available to the Disclosing Party in case of a breach of the NDA?",
+    "options": {
+      "A": "Specific performance and termination of the agreement",
+      "B": "Specific performance, injunctive relief, and money damages",
+      "C": "Money damages and termination of the agreement",
+      "D": "Only money damages"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: In case of a breach of an NDA, the Disclosing Party typically seeks specific performance to enforce the terms, injunctive relief to prevent further breaches, and money damages for any losses incurred. These remedies are standard in legal practice for breach of confidentiality agreements.",
+    "latency_ms": 796.26,
+    "client": "ACT.md",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_69",
+    "question": "What happens to the obligations regarding Confidential Information when the NDA is terminated?",
+    "options": {
+      "A": "Obligations are immediately terminated",
+      "B": "Obligations remain indefinitely",
+      "C": "Obligations remain for 1 year",
+      "D": "Obligations remain for 5 years"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "B",
+    "is_correct": false,
+    "response": "Answer: B\nExplanation: Typically, obligations regarding Confidential Information in an NDA remain indefinitely even after the termination of the agreement, unless specified otherwise in the contract. This is to ensure ongoing protection of sensitive information.",
+    "latency_ms": 678.71,
+    "client": "Abarca Health LLC",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_70",
+    "question": "What is the timeframe within which BUSINESS ASSOCIATE must make available information for accounting of disclosures to COVERED ENTITY?",
+    "options": {
+      "A": "Within 10 days of notice",
+      "B": "Within 5 days of notice",
+      "C": "Within 15 days of notice",
+      "D": "Within 20 days of notice"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "response": "Answer: C\nExplanation: Typically, a 15-day timeframe is a common standard for compliance with requests for accounting of disclosures in business associate agreements under HIPAA regulations.",
+    "latency_ms": 581.44,
+    "client": "Inogen",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_71",
+    "question": "Under what circumstances can a party assign its rights and obligations according to the NDA?",
+    "options": {
+      "A": "To a successor in ownership of substantially all assets, with written assumption of terms",
+      "B": "Without any approval or notification",
+      "C": "Only through a court order",
+      "D": "With prior written approval from the other party"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, NDAs allow assignment to a successor in ownership of substantially all assets, provided the successor assumes the terms in writing. This is common in mergers and acquisitions.",
+    "latency_ms": 547.12,
+    "client": "Advise Insurance",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_72",
+    "question": "What is the legal status of the confidential information according to the NDA between Abarca Health LLC and the Receiving Party?",
+    "options": {
+      "A": "The confidential information becomes public upon disclosure.",
+      "B": "The Receiving Party is required to compensate the Disclosing Party for the confidential information.",
+      "C": "The Receiving Party gains ownership rights to the confidential information.",
+      "D": "The confidential information remains the sole property of the Disclosing Party."
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Typically, in a Non-Disclosure Agreement (NDA), the confidential information remains the sole property of the Disclosing Party. The Receiving Party is usually granted limited rights to use the information for specific purposes outlined in the agreement, but ownership does not transfer.",
+    "latency_ms": 803.36,
+    "client": "Abarca Health LLC",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_73",
+    "question": "What must happen to latent data according to the NDA between Abarca Health LLC and the Receiving Party?",
+    "options": {
+      "A": "Latent data must be subject to destruction in due course but remains confidential until destroyed.",
+      "B": "Latent data can be freely shared with third parties.",
+      "C": "Latent data must be immediately destroyed upon request.",
+      "D": "Latent data must be kept permanently as confidential information."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, NDAs require that all confidential information, including latent data, be destroyed in due course while maintaining its confidentiality until destruction. This ensures that the data is not improperly disclosed or used.",
+    "latency_ms": 813.07,
+    "client": "Abarca Health LLC",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_75",
+    "question": "What discretion does the Client have regarding the inclusion of Outpatient Claims in the Scope?",
+    "options": {
+      "A": "Outpatient Claims are automatically included in the Scope.",
+      "B": "Client must include Outpatient Claims in the Scope.",
+      "C": "Client has no discretion and must follow Cotiviti's decision.",
+      "D": "Client has the sole discretion to add Outpatient Claims during the policy selection process."
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Typically, clients have the discretion to decide what is included in the scope of services or policies they are selecting, unless otherwise specified by contractual obligations. Therefore, the client would have the sole discretion to add Outpatient Claims during the policy selection process.",
+    "latency_ms": 655.34,
+    "client": "Maryland Physicians Care (MPC)",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_76",
+    "question": "What must the Receiving Party do with Confidential Information upon termination of the Agreement or upon request by the Disclosing Party?",
+    "options": {
+      "A": "Destroy or deliver all documents containing Confidential Information, except for a single archival copy for dispute resolution.",
+      "B": "Only destroy electronic copies and return physical documents.",
+      "C": "Return all documents and materials without retaining any copies.",
+      "D": "Retain all documents and materials indefinitely."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, upon termination of an agreement, the receiving party is required to destroy or return all confidential information, but may retain a single archival copy for legal or dispute resolution purposes. This is a common practice to ensure compliance while allowing for future legal reference.",
+    "latency_ms": 1094.8,
+    "client": "ATRIO Health Plans",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_78",
+    "question": "What information must psychologists include in the records for an initial examination according to New Jersey Medicaid/NJ FamilyCare requirements?",
+    "options": {
+      "A": "Date of service, signature, chief complaints, historical data, evaluation reports, diagnosis, intended treatment course",
+      "B": "Diagnosis, intended treatment, and prognosis",
+      "C": "Signature and chief complaints only",
+      "D": "Only the date of service and diagnosis"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Based on general legal practices and typical requirements for medical records, comprehensive documentation including date of service, signature, chief complaints, historical data, evaluation reports, diagnosis, and intended treatment course is usually required to ensure thoroughness and compliance with healthcare regulations.",
+    "latency_ms": 658.23,
+    "client": "Horizon Blue Cross Blue Shield of New Jersey",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_80",
+    "question": "What rights does the Receiving Party have concerning the Disclosing Party's Confidential Information according to the agreement?",
+    "options": {
+      "A": "The Receiving Party is automatically granted a license to all disclosed intellectual property.",
+      "B": "The Receiving Party can receive ownership and copy Confidential Information freely.",
+      "C": "The Receiving Party must receive a title and ownership of the Confidential Information.",
+      "D": "The Receiving Party has no rights to copy or reproduce Confidential Information without written permission."
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Typically, confidentiality agreements restrict the Receiving Party from copying or reproducing Confidential Information without explicit written permission from the Disclosing Party to protect intellectual property and sensitive data.",
+    "latency_ms": 520.02,
+    "client": "Horizon Blue Cross Blue Shield of New Jersey",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_81",
+    "question": "What is the consequence of withdrawing consent to receive notices and disclosures electronically?",
+    "options": {
+      "A": "Slower transaction speed",
+      "B": "No impact on transaction speed",
+      "C": "Additional fees for electronic documents",
+      "D": "Increased transaction speed"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Withdrawing consent to receive notices and disclosures electronically typically results in slower transaction speed because physical documents need to be mailed or delivered, which takes more time compared to electronic delivery.",
+    "latency_ms": 707.44,
+    "client": "Self Insured Services Co",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_82",
+    "question": "What remedy is available for a breach of the NDA according to the document?",
+    "options": {
+      "A": "Only money damages",
+      "B": "Only temporary injunctive relief",
+      "C": "Specific performance and/or injunctive relief",
+      "D": "No remedy available"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: In cases of NDA breaches, specific performance and injunctive relief are common remedies to prevent further disclosure and to enforce the terms of the agreement.",
+    "latency_ms": 467.71,
+    "client": "ACT.md",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_83",
+    "question": "What is the duration for which rights and obligations survive after the termination of the NDA agreement?",
+    "options": {
+      "A": "2 years",
+      "B": "Indefinitely",
+      "C": "5 years",
+      "D": "10 years"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "is_correct": false,
+    "response": "Answer: A\nExplanation: Typically, NDA agreements specify a survival period for confidentiality obligations, often ranging from 1 to 5 years after termination. 2 years is a common duration for such obligations to survive.",
+    "latency_ms": 541.3,
+    "client": "ATRIO Health Plans",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_84",
+    "question": "Which of the following is considered an exception to the definition of \"Confidential Information\" under the agreement?",
+    "options": {
+      "A": "Information disclosed to the Receiving Party by a third party, regardless of confidentiality obligation",
+      "B": "Information developed by the Receiving Party with reference to the Disclosing Party\u2019s Confidential Information",
+      "C": "Information publicly known before disclosure by the Disclosing Party",
+      "D": "Personal information of customers and employees"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Information that is publicly known before disclosure by the Disclosing Party is typically considered an exception to the definition of \"Confidential Information\" because it is not secret or proprietary at the time of disclosure.",
+    "latency_ms": 1019.07,
+    "client": "Albertsons Companies, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_85",
+    "question": "Under the agreement, when is the Business Associate allowed to disclose Protected Health Information (PHI)?",
+    "options": {
+      "A": "Under no circumstances",
+      "B": "Only with explicit permission from the client",
+      "C": "Only as permitted by the Agreement or as Required by Law",
+      "D": "Any time the Business Associate deems it necessary"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Typically, agreements involving Protected Health Information (PHI) allow disclosure as permitted by the agreement itself or as required by law, such as HIPAA regulations. This ensures compliance with legal standards while protecting patient privacy.",
+    "latency_ms": 530.48,
+    "client": "Blue Cross and Blue Shield of Nebraska",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_86",
+    "question": "Who is considered an Authorised User according to the MSA?",
+    "options": {
+      "A": "Any member of the public authorized by Client",
+      "B": "Any individual with access to the internet",
+      "C": "Any employee of Cotiviti",
+      "D": "An employee, agent, or independent contractor of Client authorized by Client"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: In a Master Service Agreement (MSA), an Authorized User is typically defined as an employee, agent, or independent contractor of the client who is specifically authorized by the client to access the services or data. This ensures that only individuals with a legitimate connection to the client and a need to use the services are granted access.",
+    "latency_ms": 729.03,
+    "client": "ACA Health Benefits Fund",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_87",
+    "question": "What must a Receiving Party do if legally required to disclose Confidential Information?",
+    "options": {
+      "A": "Notify the Disclosing Party promptly and seek a protective order.",
+      "B": "Disclose the information immediately without notifying the Disclosing Party.",
+      "C": "Request additional information from the legal entity requiring disclosure.",
+      "D": "Destroy the Confidential Information before disclosure."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, when a Receiving Party is legally required to disclose Confidential Information, they must notify the Disclosing Party promptly and seek a protective order to limit the disclosure and protect the confidentiality as much as possible.",
+    "latency_ms": 599.83,
+    "client": "Ochsner Health System",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_89",
+    "question": "How can you withdraw your consent to receive electronic notices and disclosures from Cotiviti?",
+    "options": {
+      "A": "Send a letter via US Postal Service",
+      "B": "Call Cotiviti customer service",
+      "C": "Send an email to legal@verscend.com",
+      "D": "Decline to sign a document within your DocuSign account and select a checkbox"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 673.39,
+    "client": "Self Insured Services Co",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_90",
+    "question": "What actions may the non-breaching party take upon knowledge of a material breach according to the legal document?",
+    "options": {
+      "A": "Report the violation to the Secretary immediately without attempting to cure the breach.",
+      "B": "Terminate the agreement immediately regardless of the possibility of curing the breach.",
+      "C": "Ignore the breach if it cannot be cured.",
+      "D": "Provide a reasonable opportunity for the breaching party to cure the breach or end the violation, and terminate the agreement if cure is not possible."
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Generally, legal documents require the non-breaching party to provide the breaching party with an opportunity to cure the breach before terminating the agreement. This is a standard practice to ensure fairness and allow the breaching party to rectify the situation.",
+    "latency_ms": 632.2,
+    "client": "Community First Health Plans",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_91",
+    "question": "What must the Recipient do with Discloser\u2019s Confidential Information upon expiration or termination of the Agreement?",
+    "options": {
+      "A": "Publish a press release about the termination",
+      "B": "Keep the information for five years",
+      "C": "Return all tangible information and delete electronic information",
+      "D": "Destroy all electronic and tangible copies"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Typically, upon termination of an agreement, the recipient is required to return tangible information and delete electronic information to ensure confidentiality is maintained.",
+    "latency_ms": 513.7,
+    "client": "Albertsons Companies, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_92",
+    "question": "What is the minimum retrieval rate for medical records in a risk adjustment campaign as specified in the SOW?",
+    "options": {
+      "A": "95%",
+      "B": "90%",
+      "C": "87%",
+      "D": "75%"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 227.51,
+    "client": "AdvantMed",
+    "document_type": "SOW",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_93",
+    "question": "What is the duration for which Eliza must maintain records to verify performance and compliance according to the agreement?",
+    "options": {
+      "A": "For ninety days after the Term",
+      "B": "For two years after the Term",
+      "C": "During the Term only",
+      "D": "For five years after the Term"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Typically, agreements require parties to maintain records for a period of time after the term to ensure compliance and allow for audits or reviews. Two years is a common duration for such record-keeping obligations.",
+    "latency_ms": 636.08,
+    "client": "Inogen",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_94",
+    "question": "What are the requirements for retaining Aetna\u2019s Business Records according to the amendment?",
+    "options": {
+      "A": "Records must be retained permanently.",
+      "B": "Supplier must retain records as per the retention period in the specific Schedule.",
+      "C": "Records must be retained until the termination of the Agreement.",
+      "D": "Supplier must retain records for 5 years."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 643.48,
+    "client": "Aetna Life Insurance Company",
+    "document_type": "Amendment",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_95",
+    "question": "What does the NDA between ATRIO Health Plans and Cotiviti Inc. specify about the nature of the relationship between the parties?",
+    "options": {
+      "A": "The NDA establishes a joint venture between the parties.",
+      "B": "The NDA does not establish a joint venture, partnership, or formal business organization between the parties.",
+      "C": "The NDA creates a formal business organization between the parties.",
+      "D": "The NDA implies a partnership between the parties."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: NDAs typically focus on confidentiality and do not establish joint ventures, partnerships, or formal business organizations. They are meant to protect sensitive information shared between parties without altering their business relationship.",
+    "latency_ms": 802.33,
+    "client": "ATRIO Health Plans",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_96",
+    "question": "What is the required timeframe for installing critical security patches on systems processing Company PHI?",
+    "options": {
+      "A": "Within 30 days of vendor release",
+      "B": "Within 7 days of vendor release",
+      "C": "Within 14 days of vendor release",
+      "D": "Within 60 days of vendor release"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "B",
+    "is_correct": false,
+    "response": "Answer: B\nExplanation: Critical security patches for systems processing sensitive data like PHI (Protected Health Information) typically require prompt installation to mitigate risks. A 7-day timeframe is often considered a standard practice to ensure timely protection against vulnerabilities.",
+    "latency_ms": 546.4,
+    "client": "Aetna Life Insurance Company",
+    "document_type": "Addendum",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_97",
+    "question": "What actions are prohibited regarding prototypes, software, or other tangible objects that embody a party\u2019s Confidential Information?",
+    "options": {
+      "A": "Exporting, selling, and marketing",
+      "B": "Exporting, disassembling, and distributing",
+      "C": "Exporting, reverse engineering, and disassembling",
+      "D": "Exporting, reverse engineering, and selling"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Confidential Information is typically protected against actions that could reveal its underlying structure or functionality, such as reverse engineering and disassembling, along with exporting which could breach confidentiality agreements.",
+    "latency_ms": 572.35,
+    "client": "Albertsons Companies, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_98",
+    "question": "What must the Business Associate do with PHI upon termination of the agreement?",
+    "options": {
+      "A": "Return or destroy all PHI in its possession.",
+      "B": "Encrypt the PHI and keep it for future use.",
+      "C": "Transfer the PHI to a third party for safekeeping.",
+      "D": "Retain all copies of PHI indefinitely."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Under HIPAA regulations, upon termination of the agreement, the Business Associate is typically required to return or destroy all Protected Health Information (PHI) in its possession to ensure privacy and security.",
+    "latency_ms": 727.95,
+    "client": "Sierra Health Plan of Nevada",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_99",
+    "question": "Which federal act must the party receiving Confidential Information comply with according to the document?",
+    "options": {
+      "A": "The Fair Credit Reporting Act of 1970",
+      "B": "The Gramm-Leach-Bliley Act of 1999",
+      "C": "The Privacy Act of 1974",
+      "D": "The Data Protection Act of 1998"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: The Gramm-Leach-Bliley Act of 1999 is a federal law that requires financial institutions to protect the privacy of consumers\" personal information. It is commonly referenced in documents dealing with confidential information, especially in the financial sector.",
+    "latency_ms": 585.09,
+    "client": "Capital Health Plan, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_100",
+    "question": "What is required for a waiver of a provision or right under the MSA to be binding?",
+    "options": {
+      "A": "It must be notarized by a third party.",
+      "B": "It must be given in writing and signed by the party granting the waiver.",
+      "C": "It must be approved by the court.",
+      "D": "It must be verbally agreed upon by both parties."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Typically, for a waiver to be binding under a Master Service Agreement (MSA), it must be given in writing and signed by the party granting the waiver. This ensures clarity and legal enforceability.",
+    "latency_ms": 590.18,
+    "client": "ACA Health Benefits Fund",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_101",
+    "question": "What restrictions are imposed on the Client regarding the Verisk IP?",
+    "options": {
+      "A": "Client can copy Verisk IP for internal use.",
+      "B": "Client can reverse engineer Verisk IP.",
+      "C": "Client can create derivative works from Verisk IP.",
+      "D": "Client cannot distribute or sublicense Verisk IP."
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Typically, legal agreements restrict clients from distributing or sublicensing intellectual property to protect the owner\"s rights and control over their IP.",
+    "latency_ms": 541.37,
+    "client": "Martin's Point Health Care",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_102",
+    "question": "What type of information is excluded from being disclosed during discussions of a Potential Transaction according to the agreement?",
+    "options": {
+      "A": "Proprietary information",
+      "B": "Trade secrets",
+      "C": "Intellectual property rights",
+      "D": "Protected Health Information (PHI)"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "B",
+    "is_correct": false,
+    "response": "Answer: B\nExplanation: Trade secrets are typically excluded from disclosure in agreements related to potential transactions to protect sensitive business information that provides a competitive advantage.",
+    "latency_ms": 454.79,
+    "client": "Wellth, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_103",
+    "question": "What is the obligation of the Receiving Party regarding the destruction of Confidential Information upon request by the Disclosing Party?",
+    "options": {
+      "A": "Destroy all Confidential Information within 5 business days and confirm destruction in writing.",
+      "B": "Destroy all Confidential Information within 30 days and confirm destruction in writing.",
+      "C": "Destroy all Confidential Information within 3 business days and confirm destruction in writing.",
+      "D": "Destroy all Confidential Information within 10 business days and confirm destruction in writing."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "B",
+    "is_correct": false,
+    "response": "Answer: B\nExplanation: Typically, a 30-day period is a standard timeframe for the destruction of confidential information, allowing the Receiving Party sufficient time to ensure complete and secure destruction and to provide written confirmation.",
+    "latency_ms": 561.47,
+    "client": "ACT.md",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_104",
+    "question": "Under what conditions does the NDA become inoperative regarding Confidential Information?",
+    "options": {
+      "A": "When the information is already known to the Nondisclosing Party independently.",
+      "B": "When Confidential Information is disclosed by the Nondisclosing Party.",
+      "C": "When the information is disclosed in the course of a negotiation.",
+      "D": "When the information becomes available from a source bound by confidentiality."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: An NDA typically becomes inoperative if the information is already known to the Nondisclosing Party independently, as it is not considered confidential in such cases.",
+    "latency_ms": 592.81,
+    "client": "7-Eleven",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_105",
+    "question": "What must the Receiving Party do with Confidential Information upon termination of the Agreement or upon request by the Disclosing Party?",
+    "options": {
+      "A": "Destroy or return all documents except for a single archival copy for dispute resolution purposes.",
+      "B": "Transfer all Confidential Information to a third party.",
+      "C": "Delete only electronic copies and retain physical copies indefinitely.",
+      "D": "Retain all documents for future reference."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, upon termination of an agreement or upon request, the Receiving Party is required to destroy or return all confidential information to protect the Disclosing Party\"s interests. Retaining a single archival copy for dispute resolution is a common exception.",
+    "latency_ms": 780.89,
+    "client": "Crumdale Partners - Better Benefits",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_106",
+    "question": "What is the non-competition clause duration mentioned in the agreement between Licensor and Licensee?",
+    "options": {
+      "A": "No non-competition clause is specified",
+      "B": "During the term of the agreement only",
+      "C": "For one year after termination of the agreement",
+      "D": "For five years after termination of the agreement"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 252.71,
+    "client": "Capital Health Plan, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_108",
+    "question": "What security measure is required when Humana requests remote access to COMPANY network?",
+    "options": {
+      "A": "Password protection only",
+      "B": "Single-factor authentication",
+      "C": "2-factor or dual authentication",
+      "D": "Biometric authentication"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: 2-factor or dual authentication is a common security measure required for remote access to ensure a higher level of security by requiring two forms of verification.",
+    "latency_ms": 595.81,
+    "client": "Humana",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_109",
+    "question": "What is the fee for application enhancement and off-hour testing according to the legal document?",
+    "options": {
+      "A": "$500 per application",
+      "B": "$0.10 per record",
+      "C": "$250 per hour",
+      "D": "$55 per hour"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 231.77,
+    "client": "Inogen",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_110",
+    "question": "What is included as part of the License Agreement for the Licensed Program?",
+    "options": {
+      "A": "Limited technical support during normal business hours",
+      "B": "All travel and out-of-pocket expenses covered",
+      "C": "Unlimited technical support during business hours",
+      "D": "Free on-site training and consulting services"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: License agreements typically include limited technical support during normal business hours as a standard provision. Options like covering all travel expenses or providing unlimited support and free on-site training are less common and usually involve additional costs or separate agreements.",
+    "latency_ms": 677.4,
+    "client": "Capital Health Plan, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_111",
+    "question": "What document contains the sole and exclusive terms and conditions governing the parties' rights with respect to the Services?",
+    "options": {
+      "A": "Attachments",
+      "B": "Business Associate Agreement",
+      "C": "Statements of Work",
+      "D": "Master Agreement"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: A Master Agreement typically outlines the overarching terms and conditions governing the parties\" rights and obligations with respect to services provided. It serves as the primary contract, while other documents like Statements of Work may detail specific projects or tasks under the Master Agreement.",
+    "latency_ms": 747.71,
+    "client": "Maryland Physicians Care (MPC)",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_112",
+    "question": "What security measure is required for business-to-business connectivity between COMPANY and Humana?",
+    "options": {
+      "A": "Firewall only",
+      "B": "Firewall, PGP encryption, and access list controls",
+      "C": "Access list controls only",
+      "D": "PGP encryption only"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Business-to-business connectivity typically requires multiple layers of security measures to protect sensitive data. Firewall, PGP encryption, and access list controls together provide a comprehensive security approach, addressing network security, data encryption, and access management.",
+    "latency_ms": 813.63,
+    "client": "Humana",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_113",
+    "question": "What actions must a Receiving Party take if compelled to disclose Confidential Information by legal process?",
+    "options": {
+      "A": "Immediately disclose the information without notifying the Disclosing Party.",
+      "B": "Ignore the request and refuse to disclose any information.",
+      "C": "Provide prompt written notice to the Disclosing Party and seek a protective order.",
+      "D": "Disclose the information and notify the Disclosing Party after disclosure."
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Typically, legal agreements require the Receiving Party to notify the Disclosing Party and seek a protective order to prevent or limit the disclosure of Confidential Information when compelled by legal process.",
+    "latency_ms": 669.6,
+    "client": "Ochsner Health System",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_114",
+    "question": "What is required of the Vendor before using an external network connection for transmitting Customer Information?",
+    "options": {
+      "A": "Obtain Customer\u2019s prior written approval",
+      "B": "Assess the connection for risk",
+      "C": "Review firewall logs regularly",
+      "D": "Implement a secure communications protocol"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "is_correct": false,
+    "response": "Answer: D\nExplanation: Implementing a secure communications protocol is a standard requirement to ensure the protection of data during transmission over external networks.",
+    "latency_ms": 502.77,
+    "client": "AIA Health Insurance Pty Ltd",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_115",
+    "question": "What does the NDA between ATRIO Health Plans and the other party specify regarding the nature of their relationship?",
+    "options": {
+      "A": "It is a formal business organization.",
+      "B": "It specifies that neither party is bound by the actions of the other.",
+      "C": "It creates a partnership.",
+      "D": "It establishes a joint venture."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: NDAs typically include clauses that specify that the agreement does not create a partnership, joint venture, or formal business organization, and that neither party is bound by the actions of the other. This is to ensure that the NDA is solely for confidentiality purposes and does not imply any further business relationship.",
+    "latency_ms": 861.02,
+    "client": "ATRIO Health Plans",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_116",
+    "question": "Under what circumstances can a party assign its rights and obligations under the Agreement without prior written consent from the other party?",
+    "options": {
+      "A": "Only with mutual agreement and consent",
+      "B": "To a successor owning substantially all business assets",
+      "C": "When assigning to any third party",
+      "D": "When assigning a minor part of the Agreement"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Typically, agreements allow assignment without consent to a successor that acquires substantially all of the business assets, as this is considered a continuation of the business rather than a transfer to an unrelated third party.",
+    "latency_ms": 726.24,
+    "client": "Ochsner Health System",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_117",
+    "question": "What must the Receiving Party do with Confidential Information upon request from the Disclosing Party?",
+    "options": {
+      "A": "Transfer all Confidential Information to a secure database",
+      "B": "Send all Confidential Information back to the Disclosing Party within 10 business days",
+      "C": "Preserve the Confidential Information for future reference",
+      "D": "Destroy all Confidential Information within 5 business days and confirm destruction in writing"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Typically, confidentiality agreements require the Receiving Party to destroy all Confidential Information upon request from the Disclosing Party and confirm the destruction in writing to ensure that the information is no longer accessible or usable.",
+    "latency_ms": 573.0,
+    "client": "ACT.md",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_119",
+    "question": "What must the Receiving Party do with the Confidential Information after the termination of the Agreement or upon written request by the Disclosing Party?",
+    "options": {
+      "A": "Retain a single archival copy and destroy all other copies",
+      "B": "Deliver all copies to the Disclosing Party and retain no copies",
+      "C": "Destroy all copies including electronic and digital copies",
+      "D": "Retain all copies for archival purposes"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "response": "Answer: C\nExplanation: Typically, confidentiality agreements require the Receiving Party to destroy all copies of the Confidential Information to ensure that no unauthorized use or disclosure occurs after the termination of the agreement.",
+    "latency_ms": 608.65,
+    "client": "Crumdale Partners - Better Benefits",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_120",
+    "question": "What must the Vendor obtain before using an external network connection for transmitting Customer Information?",
+    "options": {
+      "A": "An internal audit approval",
+      "B": "A risk assessment report",
+      "C": "A verbal confirmation from the Customer",
+      "D": "Customer\u2019s prior written approval"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Customer\u2019s prior written approval is typically required to ensure that the customer is aware of and consents to the transmission of their information over external networks, which may involve privacy and security risks.",
+    "latency_ms": 593.2,
+    "client": "AIA Health Insurance Pty Ltd",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_121",
+    "question": "What is excluded from Comparative Data according to the General VH Master Services Agreement?",
+    "options": {
+      "A": "Membership Information",
+      "B": "Application Data",
+      "C": "Utilization Management Data",
+      "D": "Protected Health Information"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Protected Health Information (PHI) is typically excluded from comparative data due to strict privacy regulations like HIPAA, which require special handling and protection of such data.",
+    "latency_ms": 646.19,
+    "client": "Martin's Point Health Care",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_122",
+    "question": "Under what conditions can the Supplier use or disclose PHI according to the agreement?",
+    "options": {
+      "A": "For any purpose as long as it is de-identified.",
+      "B": "For research purposes without any restrictions.",
+      "C": "Only for marketing purposes with individual authorization.",
+      "D": "As directed by the Company to carry out obligations or as required by law."
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Generally, agreements involving PHI (Protected Health Information) restrict its use or disclosure to specific purposes, such as fulfilling contractual obligations or complying with legal requirements. Option D aligns with typical legal standards for handling PHI.",
+    "latency_ms": 589.48,
+    "client": "Blue Shield of California",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_123",
+    "question": "What restriction does the agreement place on the disclosure of Protected Health Information (PHI)?",
+    "options": {
+      "A": "PHI cannot be disclosed at all under any circumstances.",
+      "B": "PHI can be disclosed if it is part of the Potential Transaction.",
+      "C": "PHI can be disclosed if it is de-identified according to federal regulations.",
+      "D": "PHI can be disclosed with a written amendment to the agreement."
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Under general legal standards, PHI can be disclosed if it is de-identified according to federal regulations, such as those outlined in HIPAA, which allow for the use of de-identified information without restrictions.",
+    "latency_ms": 723.69,
+    "client": "Wellth, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_124",
+    "question": "How long do the obligations regarding trade secrets survive after the termination of the agreement?",
+    "options": {
+      "A": "3 years",
+      "B": "For as long as the information qualifies as a trade secret",
+      "C": "1 year",
+      "D": "5 years"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Obligations regarding trade secrets typically survive for as long as the information continues to qualify as a trade secret, as the protection is based on the nature of the information rather than a fixed time period.",
+    "latency_ms": 588.37,
+    "client": "Maryland Physicians Care (MPC)",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_126",
+    "question": "What is the time frame within which the Business Associate must notify BCBSNE of a discovered or suspected HIPAA Breach?",
+    "options": {
+      "A": "Within 72 hours after discovery",
+      "B": "Within 7 days after discovery",
+      "C": "Immediately after discovery",
+      "D": "Within 24 hours after discovery"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Based on general legal practices, HIPAA regulations typically require notification of breaches within a short time frame, often 72 hours, to ensure prompt action and compliance.",
+    "latency_ms": 761.95,
+    "client": "Blue Cross and Blue Shield of Nebraska",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_127",
+    "question": "Under what circumstances may the Business Associate use PHI without violating the Privacy Rule?",
+    "options": {
+      "A": "For personal use",
+      "B": "For marketing purposes",
+      "C": "For the proper management and administration of Business Associate",
+      "D": "For selling to third parties"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Under the HIPAA Privacy Rule, a Business Associate may use PHI for its own management and administration purposes, provided that such use is necessary and permitted by the agreement with the covered entity.",
+    "latency_ms": 638.2,
+    "client": "Sierra Health Plan of Nevada",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_128",
+    "question": "Under what circumstances may both parties use or disclose Confidential Information according to the agreement?",
+    "options": {
+      "A": "Only if it is necessary for marketing purposes",
+      "B": "Only if required by the agreement terms",
+      "C": "Only if both parties agree in writing",
+      "D": "If required by any government authority or law"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Confidential Information can typically be disclosed if required by law or a government authority, as legal obligations override contractual confidentiality terms.",
+    "latency_ms": 513.72,
+    "client": "Blue Cross and Blue Shield of Nebraska",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_129",
+    "question": "What is the required procedure for managing user IDs and passwords according to the Aetna Life Insurance Company Addendum?",
+    "options": {
+      "A": "Passwords must be shared among users for efficiency.",
+      "B": "Usernames must be disabled or deleted within 24 hours of employee termination.",
+      "C": "Passwords must be changed every 30 days.",
+      "D": "Passwords must consist solely of dictionary words."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: It is a common practice in data security policies to disable or delete user accounts promptly after employee termination to prevent unauthorized access.",
+    "latency_ms": 622.05,
+    "client": "Aetna Life Insurance Company",
+    "document_type": "Addendum",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_130",
+    "question": "What is the required timeframe to correct data extract problems according to the State-approved System Deficiency and Notification Process?",
+    "options": {
+      "A": "Within 10 business days",
+      "B": "Within 5 business days",
+      "C": "Within 3 business days",
+      "D": "Within 1 business day"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 235.28,
+    "client": "Accenture",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_131",
+    "question": "Under the agreement, what is the Business Associate allowed to do with de-identified Protected Health Information?",
+    "options": {
+      "A": "Use it for internal training purposes only",
+      "B": "De-identify it and then store it indefinitely without further use",
+      "C": "Use it to enrich current services and create new offerings",
+      "D": "Use it solely for data aggregation services to the Covered Entity"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "D",
+    "is_correct": false,
+    "response": "Answer: D\nExplanation: Typically, agreements involving de-identified Protected Health Information allow its use for data aggregation services to the Covered Entity, as this is a common practice under HIPAA regulations.",
+    "latency_ms": 561.72,
+    "client": "Community First Health Plans",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_133",
+    "question": "What encryption standard must be used for workstations and laptops processing Company PHI according to the Aetna Life Insurance Company Addendum?",
+    "options": {
+      "A": "SHA-256",
+      "B": "DES 56 bit",
+      "C": "RSA 1024 bit",
+      "D": "FIPS 140-2 certified algorithm 128 bit or higher"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: FIPS 140-2 is a U.S. government standard that specifies security requirements for cryptographic modules, and it is commonly required for protecting sensitive data like PHI. A 128-bit or higher encryption is typically mandated for strong security.",
+    "latency_ms": 938.05,
+    "client": "Aetna Life Insurance Company",
+    "document_type": "Addendum",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_134",
+    "question": "What is the governing law for this Agreement according to the document?",
+    "options": {
+      "A": "The laws of the State of New York",
+      "B": "The laws of the State of Delaware",
+      "C": "Federal laws of the United States",
+      "D": "The laws of the State of California"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 231.28,
+    "client": "The Standard",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_136",
+    "question": "What restriction is placed on the Licensee regarding product development during and after the term of the Agreement?",
+    "options": {
+      "A": "Licensee is restricted from developing similar products for two years after the Agreement.",
+      "B": "Licensee may develop similar products at any time.",
+      "C": "Licensee may hire third parties to develop similar products during the term of the Agreement.",
+      "D": "Licensee is restricted from developing similar products for one year after the termination of the Agreement."
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: It is common in agreements to have a non-compete clause that restricts the Licensee from developing similar products for a certain period after the termination of the Agreement, often to protect the Licensor\"s interests. A one-year restriction is a typical duration for such clauses.",
+    "latency_ms": 816.59,
+    "client": "Capital Health Plan, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_137",
+    "question": "What happens to the obligations related to trade secrets after the termination of the agreement?",
+    "options": {
+      "A": "They survive for 5 years",
+      "B": "They survive for 1 year",
+      "C": "They continue indefinitely as long as the information qualifies as a trade secret",
+      "D": "They are void immediately after termination"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Obligations related to trade secrets typically continue indefinitely as long as the information remains a trade secret, because the protection of trade secrets is not limited by time but by the nature of the information.",
+    "latency_ms": 679.2,
+    "client": "Maryland Physicians Care (MPC)",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_138",
+    "question": "What are Cotiviti's obligations regarding Client Confidential Information upon termination of the agreement?",
+    "options": {
+      "A": "Cotiviti has no obligations regarding Confidential Information once the agreement is terminated.",
+      "B": "Cotiviti must return or destroy the Confidential Information unless it is not reasonably feasible or desirable to Client.",
+      "C": "Cotiviti must immediately destroy all Confidential Information.",
+      "D": "Cotiviti can continue to use the Confidential Information indefinitely."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Typically, upon termination of an agreement, a party is required to return or destroy confidential information unless otherwise agreed upon. Option B reflects a common contractual obligation to either return or destroy the information, with consideration for feasibility or client preference.",
+    "latency_ms": 879.27,
+    "client": "AxialHealthcare",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_139",
+    "question": "What restrictions are placed on the use of Confidential Information by the Vendor and Consultant?",
+    "options": {
+      "A": "They can only use it for purposes related to the Services.",
+      "B": "They can duplicate and modify it freely as long as it is kept secure.",
+      "C": "They can share it with anyone as long as it is for business purposes.",
+      "D": "They can use it freely for any purpose."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Confidential Information is typically restricted to use only for purposes related to the services being provided, to protect the interests of the disclosing party. This is a common clause in confidentiality agreements to ensure that sensitive information is not misused or disclosed beyond the scope of the agreed services.",
+    "latency_ms": 1007.98,
+    "client": "Boston Benefit Partners",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_140",
+    "question": "What must Covered Entity do when there is a change or revocation of an Individual's Authorization regarding PHI?",
+    "options": {
+      "A": "Do not inform Business Associate at all",
+      "B": "Inform Business Associate immediately",
+      "C": "Inform Business Associate within a reasonable period of time after becoming aware",
+      "D": "Wait until the next quarterly report to inform Business Associate"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Covered Entities are typically required to inform Business Associates within a reasonable period of time after becoming aware of changes or revocations to ensure compliance with privacy regulations and to prevent unauthorized use or disclosure of PHI.",
+    "latency_ms": 593.8,
+    "client": "Sierra Health Plan of Nevada",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_141",
+    "question": "What is required for remote computing sessions that involve access to Customer Confidential Information according to the document?",
+    "options": {
+      "A": "Use of a simple password authentication system",
+      "B": "Access via a secure Virtual Private Network (VPN)",
+      "C": "Use of unencrypted remote desktop access",
+      "D": "Prohibited use of any remote computing sessions"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Accessing Customer Confidential Information typically requires secure methods such as a VPN to ensure data privacy and protection against unauthorized access.",
+    "latency_ms": 438.49,
+    "client": "Humana",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_142",
+    "question": "What does the License Agreement specify regarding changes to professional service rates?",
+    "options": {
+      "A": "Rates are only adjusted annually.",
+      "B": "Rates can be changed by Licensor with prior notice.",
+      "C": "Rates may change without prior notice.",
+      "D": "Rates are fixed for the duration of the agreement."
+    },
+    "correct_answer": "C",
+    "predicted_answer": "B",
+    "is_correct": false,
+    "response": "Answer: B\nExplanation: Typically, license agreements allow for rate changes with prior notice to ensure transparency and allow the licensee to adjust accordingly.",
+    "latency_ms": 556.78,
+    "client": "Capital Health Plan, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_143",
+    "question": "What does the legal document specify about the use of a party\u2019s name or trade names in publicity releases?",
+    "options": {
+      "A": "They can be used freely without any restrictions.",
+      "B": "They can be used as long as the other party is informed.",
+      "C": "They can be used if the information is not confidential.",
+      "D": "They can be used only after securing the party\u2019s written approval."
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Typically, legal documents require written approval for the use of a party\u2019s name or trade names in publicity releases to protect the party\u2019s brand and reputation.",
+    "latency_ms": 576.56,
+    "client": "The Standard",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_144",
+    "question": "Under which jurisdiction is the Agreement governed?",
+    "options": {
+      "A": "State of California",
+      "B": "Federal laws of the United States",
+      "C": "State of New York",
+      "D": "State of Delaware"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 261.83,
+    "client": "The Standard",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_145",
+    "question": "What is the procedure for handling a Force Majeure Event according to the agreement?",
+    "options": {
+      "A": "The unaffected party must suspend all obligations indefinitely.",
+      "B": "Both parties must continue performing their obligations without any changes.",
+      "C": "The affected party must immediately terminate the agreement.",
+      "D": "The affected party must give notice and attempt to resume performance."
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: In most legal agreements, a Force Majeure clause requires the affected party to notify the other party and make reasonable efforts to resume performance as soon as possible. This is a standard procedure to manage unforeseen events that prevent contractual obligations from being fulfilled.",
+    "latency_ms": 764.08,
+    "client": "Blue Cross and Blue Shield of Nebraska",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_146",
+    "question": "What type of information is considered \"Confidential Information\" under the agreement?",
+    "options": {
+      "A": "Trade secrets and methodologies",
+      "B": "Information available to the public",
+      "C": "Expired or terminated agreements",
+      "D": "Information shared orally only"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Trade secrets and methodologies are typically considered \"Confidential Information\" as they are proprietary and not intended for public disclosure.",
+    "latency_ms": 451.56,
+    "client": "Albertsons Companies, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_147",
+    "question": "What are the requirements for a Business Associate regarding the use or disclosure of Protected Health Information (PHI) under the Agreement?",
+    "options": {
+      "A": "Use or disclose PHI only with the consent of the individuals involved",
+      "B": "Use or disclose PHI as desired",
+      "C": "Use or disclose PHI only as permitted or required by the Agreement or as Required by Law",
+      "D": "Use or disclose PHI without any safeguards"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Under typical legal agreements concerning Protected Health Information (PHI), a Business Associate is required to use or disclose PHI only as permitted or required by the Agreement or as Required by Law. This ensures compliance with privacy regulations such as HIPAA.",
+    "latency_ms": 635.98,
+    "client": "Blue Cross and Blue Shield of Nebraska",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_148",
+    "question": "Which type of visits were added to the advanced illness exclusion according to the legal document?",
+    "options": {
+      "A": "Telephone visits only",
+      "B": "In-person visits only",
+      "C": "Telephone visits, e-visits, and virtual check-ins",
+      "D": "E-visits and virtual check-ins only"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 244.88,
+    "client": "Martin's Point Health Care",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_149",
+    "question": "What measure must the Vendor implement to prevent Customer Information leakage when dealing with email and messaging systems?",
+    "options": {
+      "A": "Encrypt all email communications",
+      "B": "Use only technical security controls",
+      "C": "Employ a combination of policy, awareness, procedural, and technical security controls",
+      "D": "Block all outbound emails"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: A comprehensive approach to data protection typically involves a combination of policy, awareness, procedural, and technical security controls. This ensures that all aspects of security are covered, including human factors and technical vulnerabilities.",
+    "latency_ms": 721.14,
+    "client": "AIA Health Insurance Pty Ltd",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_151",
+    "question": "What is the definition of \"Latent Data\" according to the legal document?",
+    "options": {
+      "A": "Data stored in easily accessible formats for routine use",
+      "B": "Data that is routinely shared between parties in discussions",
+      "C": "Data stored on routine backup media, considered inaccessible without specialized tools",
+      "D": "Data that can be retrieved by anyone using standard tools"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Latent data typically refers to data that is not readily accessible and requires specialized tools to retrieve, such as data stored on backup media.",
+    "latency_ms": 1590.09,
+    "client": "The Standard",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_153",
+    "question": "What is the definition of \"Latent Data\" according to the legal document?",
+    "options": {
+      "A": "Data that is readily accessible and can be easily retrieved without specialized tools.",
+      "B": "Data stored on routine backup media that can only be retrieved by computer forensics experts.",
+      "C": "Data that is publicly available and does not require permission to disclose.",
+      "D": "Data that is intentionally hidden and cannot be retrieved by any means."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Latent data typically refers to data that is not readily accessible and may require specialized tools or expertise, such as computer forensics, to retrieve. This aligns with option B.",
+    "latency_ms": 670.27,
+    "client": "The Standard",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_154",
+    "question": "Under the agreement, what is one permitted use of Confidential Information?",
+    "options": {
+      "A": "To publicly disclose for marketing purposes",
+      "B": "To perform services for authorized third parties under the Primary Agreement in accordance with applicable law",
+      "C": "To share with competitors",
+      "D": "To sell to third parties for profit"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Confidential Information is typically used to perform services as outlined in agreements, especially when it involves authorized third parties and complies with applicable laws. Public disclosure, sharing with competitors, or selling for profit are generally prohibited.",
+    "latency_ms": 555.3,
+    "client": "Blue Shield of California",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_155",
+    "question": "What is the permitted use of Confidential Information according to the NDA?",
+    "options": {
+      "A": "For marketing purposes",
+      "B": "To develop new products independently",
+      "C": "For any business purpose",
+      "D": "To evaluate a business relationship with the disclosing party"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: NDAs typically allow the use of Confidential Information solely for the purpose of evaluating a business relationship with the disclosing party, to ensure that the information is not used for unauthorized purposes.",
+    "latency_ms": 655.83,
+    "client": "Advise Insurance",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_156",
+    "question": "What is the Vendor\u2019s recovery time objective (RTO) for software product authorization codes and Vendor\u2019s standard software technical support?",
+    "options": {
+      "A": "24 hours",
+      "B": "48 hours",
+      "C": "72 hours",
+      "D": "12 hours"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 728.28,
+    "client": "AIA Health Insurance Pty Ltd",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_157",
+    "question": "What rights do individuals have concerning their protected health information under the BAA?",
+    "options": {
+      "A": "The right to obtain a copy of their information in an electronic format",
+      "B": "The right to delete their information permanently",
+      "C": "The right to financial compensation for their information",
+      "D": "The right to prevent any disclosure of their information"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Under the Business Associate Agreement (BAA) related to HIPAA, individuals typically have the right to access and obtain a copy of their protected health information, including in an electronic format. This is a standard provision to ensure individuals can review their own health data.",
+    "latency_ms": 608.45,
+    "client": "Crumdale Partners - Better Benefits",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_158",
+    "question": "What should the Receiving Party do when required by law to disclose Confidential Information?",
+    "options": {
+      "A": "Ignore the subpoena or order and maintain confidentiality at all costs.",
+      "B": "Disclose the information immediately without notifying the Disclosing Party.",
+      "C": "Notify the Disclosing Party and seek protective orders or relief.",
+      "D": "Disclose the information without seeking the highest level of confidentiality."
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: When required by law to disclose Confidential Information, the Receiving Party should notify the Disclosing Party and seek protective orders or relief to ensure that the disclosure is handled in a way that minimizes the impact on confidentiality. This is a common practice to balance legal obligations with confidentiality agreements.",
+    "latency_ms": 630.41,
+    "client": "Albertsons Companies, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_159",
+    "question": "Under the agreement between Blue Shield of California and the Consultant, what are permissible uses of Confidential Information?",
+    "options": {
+      "A": "Only for internal management purposes",
+      "B": "For commercial purposes unrelated to the Primary Agreement",
+      "C": "For de-identifying Personal Information in accordance with Business Associate Agreements",
+      "D": "For disclosure to unauthorized third parties"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Typically, agreements involving confidential information, especially in healthcare, allow for the use of such information for purposes like de-identifying personal information in compliance with Business Associate Agreements. This is a common practice to ensure privacy and compliance with regulations such as HIPAA.",
+    "latency_ms": 748.39,
+    "client": "Blue Shield of California",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_160",
+    "question": "What is the duration for which the rights and obligations that accrue prior to the termination of the NDA survive?",
+    "options": {
+      "A": "Indefinitely",
+      "B": "5 years",
+      "C": "1 year",
+      "D": "2 years"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "is_correct": false,
+    "response": "Answer: A\nExplanation: Rights and obligations that accrue prior to the termination of an NDA typically survive indefinitely, as they are meant to protect confidential information disclosed during the term of the agreement.",
+    "latency_ms": 587.02,
+    "client": "ATRIO Health Plans",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_161",
+    "question": "What is the data sharing requirement for Licensee under the Agreement?",
+    "options": {
+      "A": "Licensee is not required to provide any data.",
+      "B": "Licensee must provide claims and enrollment data monthly.",
+      "C": "Licensee must provide claims and enrollment data semi-annually.",
+      "D": "Licensee must provide claims and enrollment data annually."
+    },
+    "correct_answer": "C",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 253.05,
+    "client": "Capital Health Plan, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_162",
+    "question": "What must the Receiving Party do with Confidential Information upon termination of the NDA with AdvantMed?",
+    "options": {
+      "A": "Retain all copies of Confidential Information indefinitely.",
+      "B": "Deliver all documents and materials to a third party for safekeeping.",
+      "C": "Destroy or deliver all documents and materials, retaining a single archival copy for dispute resolution purposes.",
+      "D": "Destroy all copies, including the archival copy."
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Typically, NDAs require the Receiving Party to destroy or return all confidential information upon termination, but allow retaining a single archival copy for potential dispute resolution purposes.",
+    "latency_ms": 540.11,
+    "client": "AdvantMed",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_164",
+    "question": "Under what circumstances does this NDA become inoperative regarding Confidential Information?",
+    "options": {
+      "A": "When the information is independently developed by personnel who have had access to the Disclosing Party\u2019s Confidential Information.",
+      "B": "When the information becomes generally available to the public through no fault of the Nondisclosing Party.",
+      "C": "When the information becomes available on a non-confidential basis from a source bound by a confidentiality agreement.",
+      "D": "When the information is disclosed by the Nondisclosing Party to the public."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Typically, NDAs become inoperative when the information becomes public through no fault of the Nondisclosing Party, as the information is no longer confidential.",
+    "latency_ms": 712.86,
+    "client": "7-Eleven",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_166",
+    "question": "Which of the following is NOT considered an exception to the definition of \"Confidential Information\" under the agreement?",
+    "options": {
+      "A": "Information that becomes publicly known through no breach of the agreement.",
+      "B": "Information already known by the Receiving Party at the time of disclosure.",
+      "C": "Personal information of customers and employees.",
+      "D": "Information independently developed by the Receiving Party without reference to Confidential Information."
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Personal information of customers and employees is typically considered confidential and protected under privacy laws, and is not usually an exception to confidentiality obligations in agreements.",
+    "latency_ms": 456.75,
+    "client": "Albertsons Companies, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_167",
+    "question": "Under what circumstances can the Recipient disclose Confidential Information according to the document?",
+    "options": {
+      "A": "When the information becomes generally known by third parties.",
+      "B": "If required by law, with prior notification to the Owner.",
+      "C": "When the Recipient independently develops the information.",
+      "D": "Upon termination of the agreement."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Typically, legal documents allow for the disclosure of confidential information if required by law, provided that the Recipient gives prior notification to the Owner. This is a common clause to ensure compliance with legal obligations while protecting the interests of the Owner.",
+    "latency_ms": 632.44,
+    "client": "The Standard",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_169",
+    "question": "What is the legal requirement for handling Evaluation Material after a written request by the Disclosing Party?",
+    "options": {
+      "A": "Retain all copies indefinitely for archival purposes",
+      "B": "Destroy all copies except a single archival copy retained by the legal department for dispute resolution",
+      "C": "Make copies available to third parties for analysis before destruction",
+      "D": "Return all copies to the Disclosing Party without retaining any copies"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "D",
+    "is_correct": false,
+    "response": "Answer: D\nExplanation: Typically, legal agreements require that all copies of Evaluation Material be returned to the Disclosing Party upon request, without retaining any copies, to protect the confidentiality and proprietary nature of the information.",
+    "latency_ms": 689.05,
+    "client": "Maryland Physicians Care (MPC)",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_170",
+    "question": "What is required of each Party upon termination of the NDA regarding Confidential Information?",
+    "options": {
+      "A": "Retain all Confidential Information for future reference",
+      "B": "Share Confidential Information with all Affiliates",
+      "C": "Disclose Confidential Information to legal authorities",
+      "D": "Return all Confidential Information to the Disclosing Party and destroy any materials containing it"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Upon termination of an NDA, it is standard practice for parties to return all Confidential Information to the Disclosing Party and destroy any materials containing it to ensure that the confidentiality obligations are upheld and the information is not misused.",
+    "latency_ms": 603.67,
+    "client": "7-Eleven",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_171",
+    "question": "Under the agreement between the Parties, what type of information is excluded from disclosure?",
+    "options": {
+      "A": "All types of information are included",
+      "B": "Trade secrets",
+      "C": "Proprietary information",
+      "D": "Protected Health Information (PHI)"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "B",
+    "is_correct": false,
+    "response": "Answer: B\nExplanation: Trade secrets are typically excluded from disclosure in agreements to protect the competitive advantage of a business.",
+    "latency_ms": 667.07,
+    "client": "Wellth, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_173",
+    "question": "What is the required action for a Business Associate if it receives a request from an Individual to access their PHI?",
+    "options": {
+      "A": "Restrict access to the PHI",
+      "B": "Provide immediate access to the PHI",
+      "C": "Deny the request and notify the Individual",
+      "D": "Forward the request to BCBSNE within 5 business days"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 714.42,
+    "client": "Blue Cross and Blue Shield of Nebraska",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_174",
+    "question": "What is the duration of the Survival Period for confidential information after the expiration or termination of the NDA?",
+    "options": {
+      "A": "5 years",
+      "B": "3 years",
+      "C": "1 year",
+      "D": "2 years"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "is_correct": false,
+    "response": "Answer: A\nExplanation: Typically, NDAs often have a survival period of 5 years for confidential information after termination, as this is a common standard to ensure long-term protection of sensitive data.",
+    "latency_ms": 546.53,
+    "client": "ACT.md",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_175",
+    "question": "What is the requirement for destroying Confidential Information as per the NDA with ACT.md?",
+    "options": {
+      "A": "Destroy all Confidential Information within 5 business days upon request",
+      "B": "Destroy all Confidential Information within 3 business days upon request",
+      "C": "Retain all Confidential Information indefinitely",
+      "D": "Destroy only if instructed in a subsequent written agreement"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, NDAs require the destruction of confidential information within a specific timeframe upon request, and 5 business days is a common period for such actions.",
+    "latency_ms": 491.26,
+    "client": "ACT.md",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_176",
+    "question": "What remedies are available for a breach of the NDA according to the document?",
+    "options": {
+      "A": "Exclusive remedy of specific performance",
+      "B": "No remedies available",
+      "C": "Only money damages",
+      "D": "Specific performance and/or injunctive relief"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Typically, NDAs include remedies such as specific performance and injunctive relief to prevent further breaches and protect confidential information, as monetary damages alone may not be sufficient.",
+    "latency_ms": 500.34,
+    "client": "ACT.md",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_177",
+    "question": "Under what circumstances can either party assign their rights and obligations under the Agreement without prior written consent from the other party?",
+    "options": {
+      "A": "When the assignment is part of a merger",
+      "B": "When the assignment is for a temporary basis",
+      "C": "When the assignment is to a successor in ownership of substantially all of the business assets",
+      "D": "When the assignment is to a third-party vendor"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Typically, assignments to a successor in ownership of substantially all of the business assets are allowed without prior consent, as this is considered a continuation of the business rather than a transfer to an unrelated third party.",
+    "latency_ms": 706.47,
+    "client": "Ochsner Health System",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_178",
+    "question": "What does the NDA between Abarca Health LLC and the other party specify regarding product development and marketing?",
+    "options": {
+      "A": "Each party is free to develop and market new or improved products unless otherwise agreed in writing.",
+      "B": "Both parties must disclose all product details to each other.",
+      "C": "Both parties are restricted from developing new products.",
+      "D": "Neither party can develop or market products without mutual consent."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, NDAs allow parties to continue their own product development and marketing unless there is a specific clause that restricts this, which would usually require a written agreement. Therefore, option A is the most likely scenario.",
+    "latency_ms": 756.57,
+    "client": "Abarca Health LLC",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_179",
+    "question": "How is a notice considered to be received if sent by email according to the MSA with ACA Health Benefits Fund?",
+    "options": {
+      "A": "Only upon receiving a delivery confirmation",
+      "B": "Immediately upon sending",
+      "C": "Four hours after sending or upon receiving a delivery confirmation, whichever occurs first",
+      "D": "At 9:00 am on the next Business Day if sent after 5:00 pm"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 257.89,
+    "client": "ACA Health Benefits Fund",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_180",
+    "question": "Under what condition is information NOT considered Confidential Information according to the NDA with AdvantMed?",
+    "options": {
+      "A": "If it is publicly known due to a breach by the Receiving Party.",
+      "B": "If it is known to the Receiving Party before receipt from the Disclosing Party.",
+      "C": "If it is disclosed by the Disclosing Party with consent.",
+      "D": "If it is independently developed by the Receiving Party."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "D",
+    "is_correct": false,
+    "response": "Answer: D\nExplanation: Information is generally not considered confidential if it is independently developed by the Receiving Party without using the Disclosing Party\"s confidential information. This is a common exception in NDAs.",
+    "latency_ms": 609.04,
+    "client": "AdvantMed",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_181",
+    "question": "What remedy may be sought if a party breaches the agreement according to the legal document text?",
+    "options": {
+      "A": "Money damages only",
+      "B": "Mandatory arbitration",
+      "C": "Specific performance and/or injunctive relief",
+      "D": "Termination of the agreement"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Specific performance and/or injunctive relief are common remedies sought in legal agreements when monetary damages are insufficient to address the breach. These remedies compel the breaching party to fulfill their obligations or prevent them from certain actions.",
+    "latency_ms": 634.72,
+    "client": "Wellth, Inc.",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_182",
+    "question": "What does the agreement specify regarding the binding powers and obligations of the parties involved?",
+    "options": {
+      "A": "Neither party has the power to bind the other to actions or debts.",
+      "B": "Each party can bind the other to contracts.",
+      "C": "Both parties share profits and liabilities.",
+      "D": "The agreement creates a joint venture or partnership."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, agreements that specify binding powers and obligations often clarify that neither party has the power to bind the other to actions or debts unless explicitly stated. This is to ensure that each party maintains autonomy and is not inadvertently held responsible for the other party\"s actions or financial obligations.",
+    "latency_ms": 817.43,
+    "client": "Crumdale Partners - Better Benefits",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_183",
+    "question": "What is the protocol for handling Latent Data as described in the legal document?",
+    "options": {
+      "A": "Latent Data can be freely shared with third parties.",
+      "B": "Latent Data remains Confidential Information until it is destroyed.",
+      "C": "Latent Data must be immediately destroyed upon receipt.",
+      "D": "Latent Data is exempt from confidentiality and can be retained indefinitely."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: In legal documents, Latent Data is typically considered Confidential Information until it is destroyed, as confidentiality is a common requirement for sensitive data.",
+    "latency_ms": 544.56,
+    "client": "Maryland Physicians Care (MPC)",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_184",
+    "question": "What does the agreement state about the ownership of Confidential Information?",
+    "options": {
+      "A": "Confidential Information remains the sole and exclusive property of the Disclosing Party.",
+      "B": "Confidential Information is jointly owned by both parties.",
+      "C": "Confidential Information is owned by the Receiving Party.",
+      "D": "Ownership of Confidential Information is determined by a separate contract."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, confidentiality agreements state that Confidential Information remains the sole and exclusive property of the Disclosing Party, as they are the originators of the information.",
+    "latency_ms": 549.51,
+    "client": "Maryland Physicians Care (MPC)",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_185",
+    "question": "What does the Agreement specify about the relationship between the two Parties?",
+    "options": {
+      "A": "The Agreement establishes a joint venture.",
+      "B": "The Agreement explicitly states no formal business organization is created.",
+      "C": "The Agreement implies a partnership between the Parties.",
+      "D": "The Agreement requires the Parties to share profits."
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Agreements often include clauses that specify the nature of the relationship between parties to avoid unintended legal implications, such as forming a partnership or joint venture. Explicitly stating that no formal business organization is created is a common practice to clarify that the agreement does not establish a partnership or joint venture.",
+    "latency_ms": 897.74,
+    "client": "Crumdale Partners - Better Benefits",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_186",
+    "question": "What is the Receiving Party permitted to do with the Disclosing Party\u2019s Confidential Information according to the NDA?",
+    "options": {
+      "A": "Use the information solely for exercising rights and performing obligations under the Agreement",
+      "B": "Use the information for any business purpose",
+      "C": "Share the information freely with unauthorized persons",
+      "D": "Disclose the information to a Third Party without permission"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: NDAs typically restrict the use of confidential information to specific purposes related to the agreement, such as exercising rights and performing obligations under the agreement. This is to ensure the information is not misused or disclosed beyond the intended scope.",
+    "latency_ms": 725.38,
+    "client": "Abarca Health LLC",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_187",
+    "question": "Under what circumstances can the Receiving Party disclose the Disclosing Party\u2019s Confidential Information?",
+    "options": {
+      "A": "When the information is known to the Receiving Party from a source with an obligation of confidentiality",
+      "B": "When the information is independently developed by the Receiving Party using the Confidential Information",
+      "C": "When required by applicable law, with prior written notice to the Disclosing Party",
+      "D": "When required by applicable law, without notifying the Disclosing Party"
+    },
+    "correct_answer": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "response": "Answer: C\nExplanation: Typically, legal agreements allow disclosure of confidential information when required by law, but they often require the Receiving Party to provide prior written notice to the Disclosing Party to allow them to seek protective measures.",
+    "latency_ms": 661.5,
+    "client": "Abarca Health LLC",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_188",
+    "question": "Under what circumstances can Confidential Information be disclosed according to the agreement?",
+    "options": {
+      "A": "Under no circumstances",
+      "B": "If required by any government authority, law, or to establish rights under the agreement",
+      "C": "Only with the explicit consent of the client",
+      "D": "Only when both parties agree in writing"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Confidential Information can typically be disclosed if required by law, government authority, or to establish rights under the agreement, as these are common exceptions in confidentiality agreements.",
+    "latency_ms": 500.65,
+    "client": "Blue Cross and Blue Shield of Nebraska",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_189",
+    "question": "What types of information are considered \"Confidential Information\" under the NDA with 7-Eleven?",
+    "options": {
+      "A": "All non-public, proprietary information, regardless of labeling",
+      "B": "Only information labeled as confidential",
+      "C": "Only product information and customer lists",
+      "D": "Only financial and employee information"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Under most NDAs, \"Confidential Information\" typically includes all non-public, proprietary information, regardless of labeling, to ensure comprehensive protection of sensitive data.",
+    "latency_ms": 1452.16,
+    "client": "7-Eleven",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_190",
+    "question": "What is included in the definition of \"Confidential Information\" under the NDA with 7-Eleven?",
+    "options": {
+      "A": "All information disclosed only after the Effective Date",
+      "B": "Non-public business methods and operating procedures",
+      "C": "Public information shared between parties",
+      "D": "Only information labeled as confidential"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Typically, \"Confidential Information\" in an NDA includes non-public business methods and operating procedures, as these are proprietary and sensitive in nature. Public information is generally excluded, and while labeling information as confidential can be a method of identification, it is not the sole criterion.",
+    "latency_ms": 636.01,
+    "client": "7-Eleven",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_191",
+    "question": "What is the duration for which the obligations regarding the use, protection, disclosure, return, and destruction of Confidential Information survive after the Effective Date?",
+    "options": {
+      "A": "5 years",
+      "B": "2 years",
+      "C": "1 year",
+      "D": "3 years"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "is_correct": false,
+    "response": "Answer: A\nExplanation: Typically, obligations regarding confidential information survive for a period of 5 years after the effective date in many legal agreements to ensure adequate protection and compliance.",
+    "latency_ms": 576.41,
+    "client": "Ochsner Health System",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_192",
+    "question": "What legal obligations must the Business Associate comply with when handling PHI?",
+    "options": {
+      "A": "Only the HIPAA Security Rule",
+      "B": "All applicable requirements of HIPAA Security Rule, HIPAA Privacy Rule, and HITECH Act",
+      "C": "Only the HITECH Act",
+      "D": "Both the HIPAA Security Rule and the HIPAA Privacy Rule"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: A Business Associate must comply with all applicable requirements of the HIPAA Security Rule, HIPAA Privacy Rule, and HITECH Act when handling Protected Health Information (PHI). This ensures comprehensive protection and compliance with federal regulations.",
+    "latency_ms": 701.42,
+    "client": "Community First Health Plans",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_193",
+    "question": "What must AdvantMed ensure before requesting records containing sensitive information such as mental health or HIV test results?",
+    "options": {
+      "A": "Only a general authorization is required.",
+      "B": "Authorization from the healthcare provider is sufficient.",
+      "C": "No authorization is needed if the records are used for research purposes.",
+      "D": "Specific patient consent and compliance with federal and state laws are required."
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: Sensitive information such as mental health or HIV test results typically requires specific patient consent and compliance with federal and state laws, such as HIPAA in the United States, to ensure privacy and protection of such sensitive data.",
+    "latency_ms": 523.05,
+    "client": "AdvantMed",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_194",
+    "question": "Under the NDA agreement between Abarca Health LLC and the other party, how can a party legally assign the agreement?",
+    "options": {
+      "A": "By obtaining prior written consent from the other party.",
+      "B": "By either party notifying the other through personal delivery or certified mail.",
+      "C": "By either party assigning its rights and obligations without consent.",
+      "D": "By mutual verbal agreement between the parties."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, NDAs require prior written consent from the other party to assign the agreement, ensuring that both parties agree to the new terms and conditions with the assignee.",
+    "latency_ms": 651.12,
+    "client": "Abarca Health LLC",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_195",
+    "question": "According to the NDA, under what conditions can the Nondisclosing Party share the Confidential Information?",
+    "options": {
+      "A": "Only after the Potential Transaction is completed",
+      "B": "With any Representative without restrictions",
+      "C": "Freely with any third party",
+      "D": "With prior written consent of the Disclosing Party"
+    },
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "response": "Answer: D\nExplanation: NDAs typically require the Nondisclosing Party to obtain prior written consent from the Disclosing Party before sharing Confidential Information with third parties, to ensure the information remains protected.",
+    "latency_ms": 1004.08,
+    "client": "7-Eleven",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_196",
+    "question": "What is the procedure for resolving disputes under the AdvantMed MSA?",
+    "options": {
+      "A": "Disputes are referred to the Chief Executive Officer of each party",
+      "B": "Disputes are resolved by the court within 48 hours",
+      "C": "Disputes are resolved by a third-party mediator",
+      "D": "Disputes are resolved through arbitration within 15 days"
+    },
+    "correct_answer": "A",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 318.84,
+    "client": "AdvantMed",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_197",
+    "question": "What remedies are available to the Disclosing Party in case of a breach of the NDA?",
+    "options": {
+      "A": "Specific performance and/or injunctive relief only",
+      "B": "Specific performance, injunctive relief, and money damages",
+      "C": "No remedies are available",
+      "D": "Money damages only"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: In case of a breach of an NDA, the Disclosing Party typically has access to multiple remedies, including specific performance, injunctive relief, and money damages. Specific performance and injunctive relief are common to prevent further breaches, while money damages compensate for any losses incurred due to the breach.",
+    "latency_ms": 695.14,
+    "client": "ACT.md",
+    "document_type": "NDA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_198",
+    "question": "Under the MSA with AdvantMed, what are the conditions under which Confidential Information can be disclosed to Optum Health - CDO?",
+    "options": {
+      "A": "Only periodic status reports, minimum volume commitment, and fees can be disclosed.",
+      "B": "No Confidential Information can be disclosed to Optum Health - CDO.",
+      "C": "All Confidential Information can be disclosed with prior written permission.",
+      "D": "Only periodic status reports and employee details can be disclosed."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "unknown",
+    "is_correct": false,
+    "response": "Could not parse LLM response",
+    "latency_ms": 360.41,
+    "client": "AdvantMed",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_199",
+    "question": "Under the AdvantMed MSA, what is a condition for disclosing Confidential Information to third parties?",
+    "options": {
+      "A": "Disclosure is allowed with the Disclosing Party\u2019s prior written permission.",
+      "B": "Disclosure is allowed to anyone as long as it is for the purpose for which it was disclosed.",
+      "C": "No conditions apply, free disclosure is allowed.",
+      "D": "Disclosure is only allowed to Optum Health-CDO business segment without restrictions."
+    },
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "response": "Answer: A\nExplanation: Typically, Master Service Agreements (MSAs) require prior written permission from the disclosing party before confidential information can be shared with third parties. This is a common legal practice to ensure that sensitive information is protected and only shared with authorized entities.",
+    "latency_ms": 705.7,
+    "client": "AdvantMed",
+    "document_type": "MSA",
+    "method": "LLM-only"
+  },
+  {
+    "id": "qa_200",
+    "question": "What is the duration for which obligations related to trade secrets survive after the termination of the Agreement?",
+    "options": {
+      "A": "2 years",
+      "B": "For as long as the information qualifies as a trade secret",
+      "C": "5 years",
+      "D": "1 year"
+    },
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "response": "Answer: B\nExplanation: Obligations related to trade secrets typically survive for as long as the information continues to qualify as a trade secret. This is because the protection of trade secrets is based on the information remaining secret and valuable, and not on a fixed time period.",
+    "latency_ms": 837.6,
+    "client": "Crumdale Partners - Better Benefits",
+    "document_type": "unknown",
+    "method": "LLM-only"
+  }
+]

@@ -7,14 +7,21 @@ import pandas as pd
 import numpy as np
 from typing import List, Optional, Dict, Any
 from openai import AzureOpenAI
+from langchain_openai import AzureChatOpenAI
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import StrOutputParser
+from prompts import get_legal_rag_system_prompt, get_legal_rag_cot_system_prompt, format_context_for_langchain
 import time
 
 API_KEY = "2jIpWCyNRg3Y8lkbmWG0tkyXwYlJn5QaZ1F3yKf7"
 S3_BUCKET = "ml-legal-restricted"
-VECTOR_BUCKET_NAME = "legal-docs-vector-store"
+VECTOR_BUCKET_NAME = "legal-docs-vectors"
+# VECTOR_BUCKET_NAME = "legal-docs-vector-store"
 EMBEDDINGS_URL = "https://zgggzg2iqg.execute-api.us-east-1.amazonaws.com/dev/get_embeddings"
 # INDEX_NAME = 'token-chunking-poc'
-INDEX_NAME = 'token-chunking-metadata-enriched'
+# INDEX_NAME = 'token-chunking-metadata-enriched'
+# INDEX_NAME = 'token-chunking-valid'
+INDEX_NAME = 'token-chunking-vectors-poc'
 
 AZURE_OPENAI_ENDPOINT = "https://ironclad-openai-001.openai.azure.com/"
 AZURE_OPENAI_API_KEY = "936856630b764210913d9a8fd6c8212b"
@@ -27,7 +34,9 @@ class LegalRAGBackend:
         self.s3v = boto3.client("s3vectors", region_name="us-east-1")
         self.azure_client = self._load_azure_client()
         self.clients_data = self._load_clients_data()
-        
+        self.filter_values = self._load_filter_values()
+        self.langchain_llm = self._init_langchain_client()
+    
     def _load_azure_client(self) -> AzureOpenAI:
         return AzureOpenAI(
             api_key=AZURE_OPENAI_API_KEY,
@@ -35,16 +44,42 @@ class LegalRAGBackend:
             azure_endpoint=AZURE_OPENAI_ENDPOINT
         )
     
-    def _load_clients_data(self) -> List[str]:
+    def _init_langchain_client(self):
+        return AzureChatOpenAI(
+            api_key=AZURE_OPENAI_API_KEY,
+            api_version="2023-05-15",
+            azure_endpoint=AZURE_OPENAI_ENDPOINT,
+            azure_deployment=AZURE_DEPLOYMENT_NAME,
+            temperature=0.0
+        )
+
+    def _load_clients_data(self) -> Dict[str, List[str]]:
         try:
-            csv_path = "files_per_client_summary.csv"
+            csv_path = "files_per_client_summary-new.csv"
             df = pd.read_csv(csv_path)
-            clients = ["All"] + df['client_account'].tolist()
-            return clients
+            
+            # Group accounts by type
+            clients = df[df['account_type'] == 'Client']['account_name'].tolist()
+            vendors = df[df['account_type'] == 'Vendor']['account_name'].tolist()
+            
+            return {
+                'Client': clients,
+                'Vendor': vendors,
+                'All': clients + vendors
+            }
         except Exception as e:
             print(f"Error loading clients data: {e}")
-            return ["All"]
-    
+            return {'Client': [], 'Vendor': [], 'All': []}
+
+    def _load_filter_values(self) -> dict:
+        try:
+            json_path = "unique_values_filter.json"
+            with open(json_path, 'r') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading filter values: {e}")
+            return {}
+
     def get_text_embedding(self, texts, model='e5_mistral_embed_384'):
         if isinstance(texts, str):
             texts = [texts]
@@ -71,9 +106,17 @@ class LegalRAGBackend:
                 response = requests.post(EMBEDDINGS_URL, json=payload, headers=headers)
                 response.raise_for_status()
 
-                raw_body = response.json().get('body')
-                parsed_body = json.loads(raw_body)
-                embedding = parsed_body.get('embeddings')
+                response_json = response.json()
+                
+                # Check if response has 'body' field (old format) or direct 'embeddings' (new format)
+                if 'body' in response_json:
+                    # Old format: body contains JSON string
+                    raw_body = response_json.get('body')
+                    parsed_body = json.loads(raw_body)
+                    embedding = parsed_body.get('embeddings')
+                else:
+                    # New format: embeddings directly in response
+                    embedding = response_json.get('embeddings')
                 
                 if not embedding or not isinstance(embedding, list) or len(embedding) != 1:
                     raise KeyError(f"No valid embedding found in response for text: '{text}'")
@@ -88,24 +131,36 @@ class LegalRAGBackend:
         return embeddings[0] if len(embeddings) == 1 else embeddings
 
     def query_s3_vector_store(self, query_text: str, client_account_filter: Optional[str] = None, 
-                               document_type_filter: Optional[str] = None, top_k: int = 5):
-        query_embedding = self.get_text_embedding(query_text)
+                               document_type_filter: Optional[str] = None, account_type_filter: Optional[str] = None,
+                               solution_line_filter: Optional[str] = None, related_product_filter: Optional[str] = None,
+                               top_k: int = 5):
+        query_embedding = self.get_text_embedding(query_text) # this returns a single embedding for the query text
+        return self.query_s3_vector_store_with_embedding(query_embedding, client_account_filter, 
+                                                        document_type_filter, account_type_filter,
+                                                        solution_line_filter, related_product_filter, top_k)
+
+    def query_s3_vector_store_with_embedding(self, query_embedding: List[float], client_account_filter: Optional[str] = None, 
+                                           document_type_filter: Optional[str] = None, account_type_filter: Optional[str] = None,
+                                           solution_line_filter: Optional[str] = None, related_product_filter: Optional[str] = None,
+                                           top_k: int = 5):
         filter_expression = {}
         
-        # Build filter expression with multiple conditions
-        if client_account_filter and client_account_filter != "All":
-            filter_expression["client_account_details"] = {"$in": [client_account_filter]}
+        # Build filter expression with multiple conditions - be more careful with filter values
+        if client_account_filter and client_account_filter != "All" and client_account_filter != "Unknown":
+            filter_expression["account_details"] = {"$in": [client_account_filter]}
             
-        if document_type_filter and document_type_filter != "All":
+        if document_type_filter and document_type_filter != "All" and document_type_filter != "unknown":
             filter_expression["document_type"] = {"$eq": document_type_filter}
+
+        if solution_line_filter and solution_line_filter != "All":
+            filter_expression["solution_line"] = {"$eq": solution_line_filter}
 
         # Only apply filter if we have conditions
         final_filter = filter_expression if filter_expression else None
 
         try:
             response = self.s3v.query_vectors(
-                vectorBucketName=VECTOR_BUCKET_NAME,
-                indexName=INDEX_NAME,
+                indexArn = f'arn:aws:s3vectors:us-east-1:254281203237:bucket/{VECTOR_BUCKET_NAME}/index/{INDEX_NAME}',
                 topK=top_k,
                 queryVector={
                     'float32': query_embedding
@@ -114,11 +169,39 @@ class LegalRAGBackend:
                 returnDistance=True,
                 filter=final_filter
             )
+    
+            # Post-process for related_product filtering if needed
+            if related_product_filter and related_product_filter != "All" and response:
+                filtered_vectors = []
+                for vector in response.get('vectors', []):
+                    metadata = vector.get('metadata', {})
+                    account_details = metadata.get('account_details', [])
+                    if (isinstance(account_details, list) and len(account_details) > 3 and 
+                        account_details[3] == related_product_filter):
+                        filtered_vectors.append(vector)
+                response['vectors'] = filtered_vectors
             
             return response
         except Exception as e:
-            print(f"❌ Error querying S3 Vector Store: {e}")
-            return None
+            print(f"Filter used: {final_filter}")
+            print(f"Client filter: {client_account_filter}, Doc type: {document_type_filter}")
+            print(f"Error querying S3 Vector Store: {e}")
+            # Try without filters as fallback
+            try:
+                print("Trying query without filters...")
+                response = self.s3v.query_vectors(
+                    indexArn = f'arn:aws:s3vectors:us-east-1:254281203237:bucket/{VECTOR_BUCKET_NAME}/index/{INDEX_NAME}',
+                    topK=top_k,
+                    queryVector={
+                        'float32': query_embedding
+                    },
+                    returnMetadata=True,
+                    returnDistance=True
+                )
+                return response
+            except Exception as e2:
+                print(f"Fallback query also failed: {e2}")
+                return None
 
     def build_prompt(self, query: str, top_chunks: Dict[str, Any]):
         context = ""
@@ -153,11 +236,14 @@ Answer:"""
         return prompt, source_refs
 
     def run_query_pipeline(self, query: str, client_filter: Optional[str] = None, 
-                          document_type_filter: Optional[str] = None, top_k: int = 5):
+                          document_type_filter: Optional[str] = None, account_type_filter: Optional[str] = None,
+                          solution_line_filter: Optional[str] = None, related_product_filter: Optional[str] = None,
+                          top_k: int = 5):
         print(f"\n🔍 Running RAG query for: {query}\n")
         start = time.time()
 
-        chunks = self.query_s3_vector_store(query, client_filter, document_type_filter, top_k=top_k)
+        chunks = self.query_s3_vector_store(query, client_filter, document_type_filter, 
+                                           account_type_filter, solution_line_filter, related_product_filter, top_k=top_k)
 
         if not chunks:
             print("❗ No chunks returned from vector store.")
@@ -195,6 +281,122 @@ Answer:"""
 
         return answer, refs, latency, chunks.get('vectors', [])
 
+    def run_query_pipeline_with_embedding(self, query: str, query_embedding: List[float], client_filter: Optional[str] = None, 
+                                        document_type_filter: Optional[str] = None, account_type_filter: Optional[str] = None,
+                                        solution_line_filter: Optional[str] = None, related_product_filter: Optional[str] = None,
+                                        top_k: int = 5):
+        print(f"\n🔍 Running RAG query with pre-computed embedding for: {query}\n")
+        start = time.time()
+
+        chunks = self.query_s3_vector_store_with_embedding(query_embedding, client_filter, document_type_filter, 
+                                                          account_type_filter, solution_line_filter, related_product_filter, top_k=top_k)
+
+        if not chunks:
+            print("❗ No chunks returned from vector store.")
+            return None, {}, 0, []
+
+        print(f"✅ Chunks response received: {type(chunks)}")
+        print(f"Chunks keys: {list(chunks.keys()) if chunks else 'None'}")
+        
+        vectors = chunks.get('vectors', [])
+        print(f"Number of vectors in chunks: {len(vectors)}")
+        
+        if not vectors:
+            print("❌ No vectors in chunks response!")
+            return None, {}, 0, []
+
+        prompt, refs = self.build_prompt(query, chunks)
+        print(f"Context length: {len(prompt)}")
+
+        response = self.azure_client.chat.completions.create(
+            model=AZURE_DEPLOYMENT_NAME,
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are a legal document analyst. Provide comprehensive, actionable answers based on the context provided. "
+                               "Focus on what documents DO say rather than what they don't mention. "
+                               "Cite sources using [1], [2], etc. based on the exact chunks provided. "
+                               "When information is incomplete, explain what specific details are missing."
+                },
+                {"role": "user", "content": prompt}
+            ]
+        )
+
+        answer = response.choices[0].message.content.strip()
+        latency = round((time.time() - start) * 1000, 2)
+
+        return answer, refs, latency, chunks.get('vectors', [])
+
+    def run_query_pipeline_langchain(self, query: str, client_filter: Optional[str] = None, 
+                                   document_type_filter: Optional[str] = None, account_type_filter: Optional[str] = None,
+                                   solution_line_filter: Optional[str] = None, related_product_filter: Optional[str] = None,
+                                   top_k: int = 5):
+        # print(f"\n🔍 Running LangChain RAG query for: {query}\n")
+        start = time.time()
+
+        chunks = self.query_s3_vector_store(query, client_filter, document_type_filter, 
+                                           account_type_filter, solution_line_filter, related_product_filter, top_k=top_k)
+
+        if not chunks or not chunks.get('vectors', []):
+            print("❗ No chunks returned from vector store.")
+            return None, {}, 0, []
+
+        vectors = chunks.get('vectors', [])
+        context = format_context_for_langchain(vectors)
+        
+        prompt = ChatPromptTemplate.from_messages([
+            ("system", get_legal_rag_system_prompt()),
+            ("human", "Context:\n{context}\n\nQuestion: {query}\n\nAnswer:")
+        ])
+        
+        chain = prompt | self.langchain_llm | StrOutputParser()
+        
+        answer = chain.invoke({"context": context, "query": query})
+        latency = round((time.time() - start) * 1000, 2)
+        
+        # Extract source references
+        refs = {}
+        for i, chunk in enumerate(vectors):
+            ref = f"[{i+1}]"
+            refs[ref] = chunk.get("metadata", {})
+
+        return answer, refs, latency, vectors
+
+    def run_query_pipeline_cot(self, query: str, client_filter: Optional[str] = None, 
+                              document_type_filter: Optional[str] = None, account_type_filter: Optional[str] = None,
+                              solution_line_filter: Optional[str] = None, related_product_filter: Optional[str] = None,
+                              top_k: int = 5):
+        # print(f"\n🔍 Running Chain-of-Thought RAG query for: {query}\n")
+        start = time.time()
+
+        chunks = self.query_s3_vector_store(query, client_filter, document_type_filter, 
+                                           account_type_filter, solution_line_filter, related_product_filter, top_k=top_k)
+
+        if not chunks or not chunks.get('vectors', []):
+            print("❗ No chunks returned from vector store.")
+            return None, {}, 0, []
+
+        vectors = chunks.get('vectors', [])
+        context = format_context_for_langchain(vectors)
+        
+        prompt = ChatPromptTemplate.from_messages([
+            ("system", get_legal_rag_cot_system_prompt()),
+            ("human", "Context:\n{context}\n\nQuestion: {query}")
+        ])
+        
+        chain = prompt | self.langchain_llm | StrOutputParser()
+        
+        answer = chain.invoke({"context": context, "query": query})
+        latency = round((time.time() - start) * 1000, 2)
+        
+        # Extract source references
+        refs = {}
+        for i, chunk in enumerate(vectors):
+            ref = f"[{i+1}]"
+            refs[ref] = chunk.get("metadata", {})
+
+        return answer, refs, latency, vectors
+
     def generate_presigned_url(self, s3_path: str, expiration: int = 3600) -> Optional[str]:
         try:
             if s3_path.startswith('s3://'):
@@ -220,10 +422,44 @@ Answer:"""
             return None
 
     def get_clients(self) -> List[str]:
-        return self.clients_data
+        return ["All"] + self.clients_data['All']
+    
+    def get_accounts_by_type(self, account_type: str) -> List[str]:
+        if account_type == "All":
+            return self.clients_data['All']
+        return self.clients_data.get(account_type, [])
 
     def get_document_types(self) -> List[str]:
-        return ["All", "Contract", "Amendment", "Addendum", "SOW", "MSA", "Agreement", "Policy"]
+        try:
+            doc_types = self.filter_values.get("document_type", [])
+            return ["All"] + doc_types
+        except Exception as e:
+            print(f"Error getting document types: {e}")
+            return ["All"]
+
+    def get_account_types(self) -> List[str]:
+        try:
+            account_types = self.filter_values.get("account_type", [])
+            return ["All"] + account_types
+        except Exception as e:
+            print(f"Error getting account types: {e}")
+            return ["All", "Client", "Vendor"]
+
+    def get_solution_lines(self) -> List[str]:
+        try:
+            solution_lines = self.filter_values.get("solution_line", [])
+            return ["All"] + solution_lines
+        except Exception as e:
+            print(f"Error getting solution lines: {e}")
+            return ["All"]
+
+    def get_related_products(self) -> List[str]:
+        try:
+            related_products = self.filter_values.get("related_product", [])
+            return ["All"] + related_products
+        except Exception as e:
+            print(f"Error getting related products: {e}")
+            return ["All"]
 
     def get_predefined_queries(self) -> List[Dict[str, str]]:
         return [
